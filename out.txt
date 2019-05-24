@@ -1,0 +1,2398 @@
+img path: data/SG\¤K/¤K.jpg
+#############################
+     stroke order: 1
+start : (  76, 110 )
+(76, 111) num of adjacent: 1
+(77, 109) num of adjacent: 1
+(77, 108) num of adjacent: 1
+(77, 107) num of adjacent: 1
+(77, 106) num of adjacent: 1
+(77, 105) num of adjacent: 1
+(77, 104) num of adjacent: 1
+(78, 103) num of adjacent: 0
+end   : (  78, 103 )
+#############################
+#############################
+     stroke order: 2
+start : (  76, 112 )
+(76, 113) num of adjacent: 1
+(76, 114) num of adjacent: 1
+(76, 115) num of adjacent: 1
+(76, 116) num of adjacent: 1
+(77, 117) num of adjacent: 1
+(77, 118) num of adjacent: 1
+(77, 119) num of adjacent: 1
+(78, 120) num of adjacent: 1
+(79, 121) num of adjacent: 1
+(80, 122) num of adjacent: 1
+(81, 123) num of adjacent: 1
+(82, 124) num of adjacent: 1
+(83, 124) num of adjacent: 1
+(84, 125) num of adjacent: 1
+(85, 126) num of adjacent: 1
+(86, 126) num of adjacent: 1
+(87, 127) num of adjacent: 1
+(88, 127) num of adjacent: 1
+(89, 128) num of adjacent: 1
+(90, 128) num of adjacent: 1
+(91, 129) num of adjacent: 1
+(92, 130) num of adjacent: 1
+(93, 131) num of adjacent: 1
+(94, 131) num of adjacent: 1
+(95, 132) num of adjacent: 1
+(96, 132) num of adjacent: 1
+(97, 133) num of adjacent: 1
+(98, 133) num of adjacent: 1
+(99, 134) num of adjacent: 1
+(100, 135) num of adjacent: 1
+(101, 135) num of adjacent: 1
+(102, 136) num of adjacent: 1
+(103, 136) num of adjacent: 1
+(104, 137) num of adjacent: 1
+(105, 137) num of adjacent: 1
+(106, 138) num of adjacent: 1
+(107, 138) num of adjacent: 1
+(108, 139) num of adjacent: 1
+(109, 140) num of adjacent: 1
+(110, 140) num of adjacent: 1
+(111, 141) num of adjacent: 1
+(112, 142) num of adjacent: 1
+(113, 142) num of adjacent: 1
+(114, 143) num of adjacent: 1
+(115, 143) num of adjacent: 1
+(116, 144) num of adjacent: 1
+(117, 144) num of adjacent: 1
+(118, 145) num of adjacent: 1
+(119, 146) num of adjacent: 1
+(120, 147) num of adjacent: 1
+(121, 147) num of adjacent: 1
+(122, 148) num of adjacent: 1
+(123, 148) num of adjacent: 1
+(124, 149) num of adjacent: 1
+(125, 150) num of adjacent: 1
+(126, 151) num of adjacent: 1
+(127, 152) num of adjacent: 1
+(128, 153) num of adjacent: 1
+(129, 154) num of adjacent: 1
+(130, 154) num of adjacent: 1
+(131, 155) num of adjacent: 1
+(132, 156) num of adjacent: 1
+(133, 157) num of adjacent: 1
+(134, 158) num of adjacent: 1
+(135, 159) num of adjacent: 1
+(136, 160) num of adjacent: 1
+(136, 161) num of adjacent: 1
+(137, 162) num of adjacent: 1
+(138, 163) num of adjacent: 1
+(139, 164) num of adjacent: 1
+(140, 165) num of adjacent: 1
+(140, 166) num of adjacent: 1
+(141, 167) num of adjacent: 1
+(142, 168) num of adjacent: 1
+(142, 169) num of adjacent: 1
+(142, 170) num of adjacent: 1
+(142, 171) num of adjacent: 1
+(142, 172) num of adjacent: 1
+(143, 173) num of adjacent: 1
+(143, 174) num of adjacent: 1
+(144, 175) num of adjacent: 1
+(144, 176) num of adjacent: 1
+(144, 177) num of adjacent: 1
+(144, 178) num of adjacent: 1
+(144, 179) num of adjacent: 1
+(144, 180) num of adjacent: 1
+(144, 181) num of adjacent: 1
+(144, 182) num of adjacent: 1
+(144, 183) num of adjacent: 1
+(144, 184) num of adjacent: 1
+(144, 185) num of adjacent: 1
+(144, 186) num of adjacent: 1
+(145, 187) num of adjacent: 1
+(145, 188) num of adjacent: 1
+(145, 189) num of adjacent: 1
+(145, 190) num of adjacent: 1
+(145, 191) num of adjacent: 1
+(145, 192) num of adjacent: 1
+(145, 193) num of adjacent: 1
+(145, 194) num of adjacent: 1
+(145, 195) num of adjacent: 1
+(145, 196) num of adjacent: 1
+(145, 197) num of adjacent: 1
+(145, 198) num of adjacent: 1
+(146, 199) num of adjacent: 1
+(146, 200) num of adjacent: 1
+(146, 201) num of adjacent: 1
+(146, 202) num of adjacent: 1
+(146, 203) num of adjacent: 1
+(146, 204) num of adjacent: 1
+(146, 205) num of adjacent: 1
+(146, 206) num of adjacent: 1
+(147, 207) num of adjacent: 1
+(147, 208) num of adjacent: 1
+(147, 209) num of adjacent: 0
+end   : ( 147, 209 )
+#############################
+#############################
+     stroke order: 3
+start : (  93,  95 )
+(94, 95) num of adjacent: 1
+(95, 95) num of adjacent: 1
+(96, 96) num of adjacent: 1
+(97, 96) num of adjacent: 1
+(98, 96) num of adjacent: 1
+(99, 96) num of adjacent: 1
+(100, 96) num of adjacent: 1
+(101, 96) num of adjacent: 1
+(102, 96) num of adjacent: 1
+(103, 96) num of adjacent: 1
+(104, 95) num of adjacent: 1
+(105, 95) num of adjacent: 1
+(106, 94) num of adjacent: 1
+(107, 94) num of adjacent: 1
+(108, 93) num of adjacent: 1
+(109, 93) num of adjacent: 1
+(110, 92) num of adjacent: 1
+(111, 92) num of adjacent: 1
+(112, 91) num of adjacent: 1
+(113, 91) num of adjacent: 1
+(114, 90) num of adjacent: 1
+(115, 90) num of adjacent: 1
+(116, 90) num of adjacent: 1
+(117, 89) num of adjacent: 1
+(118, 88) num of adjacent: 1
+(119, 87) num of adjacent: 1
+(120, 87) num of adjacent: 1
+(121, 86) num of adjacent: 1
+(122, 86) num of adjacent: 1
+(123, 85) num of adjacent: 1
+(124, 85) num of adjacent: 1
+(125, 84) num of adjacent: 1
+(126, 84) num of adjacent: 1
+(127, 83) num of adjacent: 1
+(128, 83) num of adjacent: 1
+(129, 82) num of adjacent: 1
+(130, 81) num of adjacent: 1
+(131, 81) num of adjacent: 1
+(132, 80) num of adjacent: 1
+(133, 80) num of adjacent: 1
+(134, 79) num of adjacent: 1
+(135, 78) num of adjacent: 1
+(136, 78) num of adjacent: 1
+(137, 78) num of adjacent: 1
+(138, 77) num of adjacent: 1
+(138, 76) num of adjacent: 1
+(139, 75) num of adjacent: 1
+(140, 75) num of adjacent: 1
+(141, 74) num of adjacent: 1
+(142, 74) num of adjacent: 1
+(143, 73) num of adjacent: 1
+(144, 73) num of adjacent: 1
+(145, 72) num of adjacent: 1
+(146, 71) num of adjacent: 1
+(147, 70) num of adjacent: 1
+(148, 69) num of adjacent: 1
+(149, 69) num of adjacent: 1
+(150, 68) num of adjacent: 1
+(151, 67) num of adjacent: 1
+(152, 66) num of adjacent: 1
+(153, 66) num of adjacent: 1
+(154, 65) num of adjacent: 1
+(155, 64) num of adjacent: 1
+(156, 63) num of adjacent: 1
+(157, 62) num of adjacent: 1
+(157, 61) num of adjacent: 1
+(158, 60) num of adjacent: 1
+(159, 59) num of adjacent: 1
+(160, 58) num of adjacent: 1
+(161, 58) num of adjacent: 1
+(162, 57) num of adjacent: 1
+(162, 56) num of adjacent: 1
+(163, 55) num of adjacent: 1
+(164, 54) num of adjacent: 1
+(165, 53) num of adjacent: 1
+(165, 52) num of adjacent: 1
+(166, 51) num of adjacent: 1
+(167, 50) num of adjacent: 1
+(167, 49) num of adjacent: 0
+end   : ( 167,  49 )
+#############################
+stroke len: 2
+img path: data/SG\¥|/¥|.jpg
+#############################
+     stroke order: 1
+start : (  81, 146 )
+(81, 147) num of adjacent: 1
+(82, 145) num of adjacent: 1
+(82, 144) num of adjacent: 1
+(82, 143) num of adjacent: 1
+(82, 142) num of adjacent: 1
+(82, 141) num of adjacent: 1
+(82, 140) num of adjacent: 1
+(82, 139) num of adjacent: 1
+(82, 138) num of adjacent: 1
+(83, 137) num of adjacent: 1
+(83, 136) num of adjacent: 1
+(83, 135) num of adjacent: 1
+(83, 134) num of adjacent: 1
+(83, 133) num of adjacent: 1
+(84, 132) num of adjacent: 1
+(84, 131) num of adjacent: 1
+(84, 130) num of adjacent: 1
+(84, 129) num of adjacent: 1
+(84, 128) num of adjacent: 1
+(85, 127) num of adjacent: 1
+(85, 126) num of adjacent: 1
+(86, 125) num of adjacent: 1
+(87, 124) num of adjacent: 2
+(88, 125) num of adjacent: 1
+(87, 123) num of adjacent: 1
+(87, 122) num of adjacent: 1
+(87, 121) num of adjacent: 1
+(87, 120) num of adjacent: 1
+(87, 119) num of adjacent: 1
+(87, 118) num of adjacent: 1
+(87, 117) num of adjacent: 1
+(88, 116) num of adjacent: 1
+(88, 115) num of adjacent: 1
+(89, 114) num of adjacent: 1
+(89, 113) num of adjacent: 1
+(89, 112) num of adjacent: 1
+(89, 111) num of adjacent: 1
+(90, 110) num of adjacent: 1
+(90, 109) num of adjacent: 1
+(90, 108) num of adjacent: 1
+(91, 107) num of adjacent: 1
+(91, 106) num of adjacent: 1
+(91, 105) num of adjacent: 1
+(91, 104) num of adjacent: 1
+(92, 103) num of adjacent: 1
+(92, 102) num of adjacent: 1
+(92, 101) num of adjacent: 1
+(92, 100) num of adjacent: 1
+(93, 99) num of adjacent: 1
+(93, 98) num of adjacent: 1
+(93, 97) num of adjacent: 1
+(94, 96) num of adjacent: 1
+(94, 95) num of adjacent: 1
+(95, 94) num of adjacent: 1
+(95, 93) num of adjacent: 1
+(95, 92) num of adjacent: 1
+(96, 91) num of adjacent: 1
+(96, 90) num of adjacent: 1
+(96, 89) num of adjacent: 1
+(96, 88) num of adjacent: 1
+(97, 87) num of adjacent: 1
+(97, 86) num of adjacent: 1
+(98, 85) num of adjacent: 1
+(98, 84) num of adjacent: 0
+end   : (  98,  84 )
+#############################
+#############################
+     stroke order: 2
+start : (  81, 148 )
+(81, 149) num of adjacent: 1
+(81, 150) num of adjacent: 1
+(81, 151) num of adjacent: 1
+(81, 152) num of adjacent: 1
+(81, 153) num of adjacent: 1
+(81, 154) num of adjacent: 1
+(81, 155) num of adjacent: 1
+(81, 156) num of adjacent: 1
+(81, 157) num of adjacent: 1
+(81, 158) num of adjacent: 1
+(81, 159) num of adjacent: 1
+(81, 160) num of adjacent: 1
+(81, 161) num of adjacent: 1
+(81, 162) num of adjacent: 1
+(81, 163) num of adjacent: 1
+(82, 164) num of adjacent: 1
+(82, 165) num of adjacent: 1
+(82, 166) num of adjacent: 1
+(82, 167) num of adjacent: 1
+(82, 168) num of adjacent: 1
+(83, 169) num of adjacent: 1
+(83, 170) num of adjacent: 1
+(84, 171) num of adjacent: 1
+(85, 172) num of adjacent: 1
+(86, 173) num of adjacent: 1
+(87, 174) num of adjacent: 1
+(88, 175) num of adjacent: 1
+(89, 176) num of adjacent: 1
+(90, 176) num of adjacent: 1
+(91, 177) num of adjacent: 1
+(92, 177) num of adjacent: 1
+(93, 177) num of adjacent: 1
+(94, 178) num of adjacent: 1
+(95, 179) num of adjacent: 1
+(96, 179) num of adjacent: 1
+(97, 179) num of adjacent: 1
+(98, 180) num of adjacent: 2
+(99, 180) num of adjacent: 2
+(100, 180) num of adjacent: 2
+(101, 180) num of adjacent: 1
+(99, 181) num of adjacent: 1
+(99, 182) num of adjacent: 0
+end   : (  99, 182 )
+#############################
+#############################
+     stroke order: 3
+start : (  89, 125 )
+(90, 126) num of adjacent: 1
+(91, 126) num of adjacent: 1
+(92, 127) num of adjacent: 1
+(93, 127) num of adjacent: 1
+(94, 127) num of adjacent: 1
+(95, 128) num of adjacent: 1
+(96, 128) num of adjacent: 1
+(97, 128) num of adjacent: 1
+(98, 128) num of adjacent: 1
+(99, 128) num of adjacent: 1
+(100, 128) num of adjacent: 1
+(101, 128) num of adjacent: 1
+(102, 128) num of adjacent: 1
+(103, 128) num of adjacent: 1
+(104, 127) num of adjacent: 1
+(105, 127) num of adjacent: 1
+(106, 127) num of adjacent: 1
+(107, 127) num of adjacent: 1
+(108, 126) num of adjacent: 1
+(109, 126) num of adjacent: 2
+(110, 126) num of adjacent: 2
+(110, 127) num of adjacent: 1
+(111, 125) num of adjacent: 1
+(112, 124) num of adjacent: 1
+(113, 123) num of adjacent: 0
+end   : ( 113, 123 )
+#############################
+#############################
+     stroke order: 4
+start : (  94,  73 )
+(95, 73) num of adjacent: 1
+(96, 73) num of adjacent: 1
+(97, 73) num of adjacent: 1
+(98, 73) num of adjacent: 1
+(99, 73) num of adjacent: 1
+(100, 73) num of adjacent: 1
+(101, 73) num of adjacent: 1
+(102, 73) num of adjacent: 1
+(103, 73) num of adjacent: 1
+(104, 73) num of adjacent: 1
+(105, 73) num of adjacent: 1
+(106, 73) num of adjacent: 1
+(107, 73) num of adjacent: 1
+(108, 73) num of adjacent: 1
+(109, 73) num of adjacent: 1
+(110, 73) num of adjacent: 1
+(111, 73) num of adjacent: 1
+(112, 73) num of adjacent: 1
+(113, 74) num of adjacent: 1
+(114, 74) num of adjacent: 1
+(115, 74) num of adjacent: 1
+(116, 74) num of adjacent: 1
+(117, 75) num of adjacent: 1
+(118, 76) num of adjacent: 1
+(119, 76) num of adjacent: 1
+(120, 77) num of adjacent: 1
+(121, 77) num of adjacent: 1
+(122, 78) num of adjacent: 1
+(123, 79) num of adjacent: 1
+(124, 80) num of adjacent: 1
+(125, 80) num of adjacent: 1
+(126, 81) num of adjacent: 1
+(127, 82) num of adjacent: 1
+(128, 82) num of adjacent: 1
+(129, 82) num of adjacent: 1
+(130, 82) num of adjacent: 1
+(131, 83) num of adjacent: 1
+(132, 83) num of adjacent: 1
+(133, 84) num of adjacent: 1
+(134, 84) num of adjacent: 1
+(135, 84) num of adjacent: 1
+(136, 85) num of adjacent: 1
+(137, 86) num of adjacent: 1
+(138, 86) num of adjacent: 1
+(139, 87) num of adjacent: 1
+(139, 88) num of adjacent: 1
+(140, 89) num of adjacent: 1
+(140, 90) num of adjacent: 1
+(141, 91) num of adjacent: 1
+(141, 92) num of adjacent: 1
+(142, 93) num of adjacent: 1
+(143, 94) num of adjacent: 1
+(143, 95) num of adjacent: 1
+(143, 96) num of adjacent: 1
+(143, 97) num of adjacent: 1
+(143, 98) num of adjacent: 1
+(143, 99) num of adjacent: 1
+(142, 100) num of adjacent: 1
+(141, 101) num of adjacent: 1
+(141, 102) num of adjacent: 1
+(141, 103) num of adjacent: 1
+(140, 104) num of adjacent: 1
+(140, 105) num of adjacent: 1
+(140, 106) num of adjacent: 2
+(140, 107) num of adjacent: 2
+(141, 108) num of adjacent: 0
+(139, 107) num of adjacent: 1
+(138, 108) num of adjacent: 1
+(138, 109) num of adjacent: 1
+(138, 110) num of adjacent: 1
+(137, 111) num of adjacent: 1
+(137, 112) num of adjacent: 1
+(137, 113) num of adjacent: 1
+(137, 114) num of adjacent: 1
+(136, 115) num of adjacent: 1
+(136, 116) num of adjacent: 1
+(136, 117) num of adjacent: 1
+(135, 118) num of adjacent: 1
+(135, 119) num of adjacent: 1
+(135, 120) num of adjacent: 1
+(134, 121) num of adjacent: 1
+(134, 122) num of adjacent: 1
+(134, 123) num of adjacent: 1
+(134, 124) num of adjacent: 1
+(134, 125) num of adjacent: 1
+(134, 126) num of adjacent: 1
+(133, 127) num of adjacent: 1
+(133, 128) num of adjacent: 1
+(133, 129) num of adjacent: 1
+(132, 130) num of adjacent: 1
+(132, 131) num of adjacent: 1
+(132, 132) num of adjacent: 1
+(132, 133) num of adjacent: 1
+(132, 134) num of adjacent: 1
+(132, 135) num of adjacent: 1
+(132, 136) num of adjacent: 1
+(132, 137) num of adjacent: 1
+(132, 138) num of adjacent: 1
+(132, 139) num of adjacent: 1
+(132, 140) num of adjacent: 1
+(132, 141) num of adjacent: 1
+(132, 142) num of adjacent: 1
+(132, 143) num of adjacent: 1
+(132, 144) num of adjacent: 1
+(132, 145) num of adjacent: 1
+(132, 146) num of adjacent: 1
+(132, 147) num of adjacent: 1
+(132, 148) num of adjacent: 1
+(132, 149) num of adjacent: 1
+(132, 150) num of adjacent: 0
+end   : ( 132, 150 )
+#############################
+#############################
+     stroke order: 5
+start : ( 102, 102 )
+(103, 102) num of adjacent: 1
+(104, 102) num of adjacent: 1
+(105, 102) num of adjacent: 1
+(106, 102) num of adjacent: 1
+(107, 102) num of adjacent: 1
+(108, 102) num of adjacent: 1
+(109, 102) num of adjacent: 1
+(110, 101) num of adjacent: 1
+(111, 101) num of adjacent: 1
+(112, 101) num of adjacent: 1
+(113, 101) num of adjacent: 1
+(114, 100) num of adjacent: 1
+(115, 100) num of adjacent: 1
+(116, 99) num of adjacent: 1
+(117, 99) num of adjacent: 1
+(118, 98) num of adjacent: 1
+(119, 98) num of adjacent: 1
+(120, 97) num of adjacent: 1
+(121, 97) num of adjacent: 1
+(122, 96) num of adjacent: 1
+(123, 96) num of adjacent: 1
+(124, 96) num of adjacent: 1
+(125, 95) num of adjacent: 1
+(126, 94) num of adjacent: 0
+end   : ( 126,  94 )
+#############################
+#############################
+     stroke order: 6
+start : ( 102, 157 )
+(102, 158) num of adjacent: 1
+(103, 156) num of adjacent: 1
+(103, 155) num of adjacent: 1
+(104, 154) num of adjacent: 1
+(104, 153) num of adjacent: 1
+(104, 152) num of adjacent: 1
+(105, 151) num of adjacent: 1
+(105, 150) num of adjacent: 1
+(105, 149) num of adjacent: 1
+(105, 148) num of adjacent: 1
+(106, 147) num of adjacent: 2
+(105, 146) num of adjacent: 2
+(106, 146) num of adjacent: 1
+(104, 146) num of adjacent: 0
+end   : ( 104, 146 )
+#############################
+#############################
+     stroke order: 7
+start : ( 102, 159 )
+end   : ( 102, 159 )
+#############################
+#############################
+     stroke order: 8
+start : ( 102, 180 )
+(103, 179) num of adjacent: 1
+(104, 179) num of adjacent: 1
+(105, 179) num of adjacent: 1
+(106, 178) num of adjacent: 1
+(107, 178) num of adjacent: 1
+(108, 178) num of adjacent: 1
+(109, 178) num of adjacent: 1
+(110, 178) num of adjacent: 1
+(111, 178) num of adjacent: 1
+(112, 177) num of adjacent: 1
+(113, 177) num of adjacent: 1
+(114, 177) num of adjacent: 1
+(115, 177) num of adjacent: 1
+(116, 176) num of adjacent: 1
+(117, 176) num of adjacent: 1
+(118, 176) num of adjacent: 1
+(119, 176) num of adjacent: 1
+(120, 176) num of adjacent: 1
+(121, 175) num of adjacent: 1
+(122, 175) num of adjacent: 1
+(123, 175) num of adjacent: 1
+(124, 175) num of adjacent: 1
+(125, 174) num of adjacent: 1
+(126, 174) num of adjacent: 1
+(127, 173) num of adjacent: 1
+(128, 173) num of adjacent: 1
+(129, 173) num of adjacent: 1
+(130, 172) num of adjacent: 1
+(131, 172) num of adjacent: 1
+(132, 172) num of adjacent: 1
+(133, 172) num of adjacent: 1
+(134, 171) num of adjacent: 1
+(135, 171) num of adjacent: 1
+(136, 171) num of adjacent: 1
+(137, 170) num of adjacent: 1
+(138, 169) num of adjacent: 1
+(139, 169) num of adjacent: 1
+(140, 168) num of adjacent: 1
+(141, 167) num of adjacent: 1
+(142, 167) num of adjacent: 1
+(143, 166) num of adjacent: 1
+(144, 166) num of adjacent: 1
+(145, 165) num of adjacent: 1
+(146, 164) num of adjacent: 1
+(147, 163) num of adjacent: 1
+(148, 162) num of adjacent: 1
+(149, 161) num of adjacent: 1
+(150, 161) num of adjacent: 1
+(151, 160) num of adjacent: 1
+(152, 159) num of adjacent: 1
+(153, 158) num of adjacent: 1
+(153, 157) num of adjacent: 1
+(154, 156) num of adjacent: 1
+(155, 155) num of adjacent: 1
+(155, 154) num of adjacent: 1
+(155, 153) num of adjacent: 1
+(156, 152) num of adjacent: 1
+(156, 151) num of adjacent: 1
+(157, 150) num of adjacent: 2
+(158, 150) num of adjacent: 1
+(156, 149) num of adjacent: 1
+(156, 148) num of adjacent: 1
+(156, 147) num of adjacent: 1
+(155, 146) num of adjacent: 1
+(154, 145) num of adjacent: 1
+(154, 144) num of adjacent: 1
+(153, 143) num of adjacent: 1
+(153, 142) num of adjacent: 1
+(152, 141) num of adjacent: 1
+(151, 140) num of adjacent: 1
+(150, 139) num of adjacent: 1
+(150, 138) num of adjacent: 1
+(149, 137) num of adjacent: 1
+(148, 136) num of adjacent: 1
+(147, 135) num of adjacent: 1
+(147, 134) num of adjacent: 1
+(146, 133) num of adjacent: 1
+(145, 132) num of adjacent: 1
+(144, 131) num of adjacent: 1
+(144, 130) num of adjacent: 1
+(143, 129) num of adjacent: 1
+(142, 128) num of adjacent: 0
+end   : ( 142, 128 )
+#############################
+#############################
+     stroke order: 9
+start : ( 107, 144 )
+(107, 145) num of adjacent: 0
+(108, 143) num of adjacent: 1
+(108, 142) num of adjacent: 1
+(109, 141) num of adjacent: 2
+(109, 140) num of adjacent: 2
+(110, 140) num of adjacent: 1
+(108, 139) num of adjacent: 1
+(108, 138) num of adjacent: 1
+(108, 137) num of adjacent: 1
+(108, 136) num of adjacent: 1
+(108, 135) num of adjacent: 1
+(109, 134) num of adjacent: 1
+(109, 133) num of adjacent: 1
+(109, 132) num of adjacent: 1
+(110, 131) num of adjacent: 1
+(110, 130) num of adjacent: 1
+(110, 129) num of adjacent: 1
+(110, 128) num of adjacent: 0
+end   : ( 110, 128 )
+#############################
+#############################
+     stroke order: 10
+start : ( 111, 139 )
+(112, 138) num of adjacent: 1
+(113, 137) num of adjacent: 1
+(114, 136) num of adjacent: 1
+(115, 135) num of adjacent: 1
+(116, 134) num of adjacent: 1
+(116, 133) num of adjacent: 1
+(117, 132) num of adjacent: 1
+(118, 131) num of adjacent: 0
+end   : ( 118, 131 )
+#############################
+#############################
+     stroke order: 11
+start : ( 159, 151 )
+end   : ( 159, 151 )
+#############################
+stroke len: 8
+img path: data/SG\¦­/¦­.jpg
+#############################
+     stroke order: 1
+start : (  54, 138 )
+(54, 139) num of adjacent: 1
+(55, 137) num of adjacent: 1
+(55, 136) num of adjacent: 1
+(55, 135) num of adjacent: 1
+(55, 134) num of adjacent: 1
+(55, 133) num of adjacent: 1
+(56, 132) num of adjacent: 1
+(56, 131) num of adjacent: 1
+(56, 130) num of adjacent: 1
+(57, 129) num of adjacent: 1
+(57, 128) num of adjacent: 1
+(57, 127) num of adjacent: 1
+(57, 126) num of adjacent: 1
+(58, 125) num of adjacent: 1
+(58, 124) num of adjacent: 1
+(58, 123) num of adjacent: 1
+(59, 122) num of adjacent: 1
+(59, 121) num of adjacent: 1
+(59, 120) num of adjacent: 1
+(59, 119) num of adjacent: 1
+(60, 118) num of adjacent: 1
+(60, 117) num of adjacent: 1
+(60, 116) num of adjacent: 1
+(61, 115) num of adjacent: 1
+(61, 114) num of adjacent: 1
+(62, 113) num of adjacent: 1
+(62, 112) num of adjacent: 1
+(62, 111) num of adjacent: 1
+(62, 110) num of adjacent: 1
+(63, 109) num of adjacent: 1
+(63, 108) num of adjacent: 1
+(63, 107) num of adjacent: 1
+(63, 106) num of adjacent: 1
+(63, 105) num of adjacent: 1
+(63, 104) num of adjacent: 0
+end   : (  63, 104 )
+#############################
+#############################
+     stroke order: 2
+start : (  54, 140 )
+(54, 141) num of adjacent: 1
+(54, 142) num of adjacent: 1
+(54, 143) num of adjacent: 1
+(54, 144) num of adjacent: 1
+(54, 145) num of adjacent: 1
+(55, 146) num of adjacent: 1
+(56, 147) num of adjacent: 1
+(57, 148) num of adjacent: 1
+(58, 149) num of adjacent: 1
+(59, 149) num of adjacent: 1
+(60, 150) num of adjacent: 1
+(61, 150) num of adjacent: 1
+(62, 150) num of adjacent: 1
+(63, 151) num of adjacent: 2
+(64, 151) num of adjacent: 2
+(65, 151) num of adjacent: 1
+(63, 152) num of adjacent: 1
+(63, 153) num of adjacent: 1
+(63, 154) num of adjacent: 1
+(63, 155) num of adjacent: 1
+(63, 156) num of adjacent: 1
+(63, 157) num of adjacent: 1
+(64, 158) num of adjacent: 1
+(64, 159) num of adjacent: 0
+end   : (  64, 159 )
+#############################
+#############################
+     stroke order: 3
+start : (  66, 151 )
+(67, 150) num of adjacent: 1
+(68, 150) num of adjacent: 1
+(69, 150) num of adjacent: 1
+(70, 150) num of adjacent: 1
+(71, 149) num of adjacent: 1
+(72, 149) num of adjacent: 1
+(73, 148) num of adjacent: 1
+(74, 148) num of adjacent: 1
+(75, 148) num of adjacent: 1
+(76, 147) num of adjacent: 1
+(77, 147) num of adjacent: 1
+(78, 146) num of adjacent: 1
+(79, 146) num of adjacent: 1
+(80, 146) num of adjacent: 1
+(81, 145) num of adjacent: 1
+(82, 145) num of adjacent: 1
+(83, 144) num of adjacent: 1
+(84, 144) num of adjacent: 1
+(85, 144) num of adjacent: 1
+(86, 143) num of adjacent: 1
+(87, 142) num of adjacent: 1
+(88, 141) num of adjacent: 1
+(89, 141) num of adjacent: 1
+(90, 140) num of adjacent: 1
+(91, 139) num of adjacent: 1
+(92, 138) num of adjacent: 1
+(92, 137) num of adjacent: 1
+(93, 136) num of adjacent: 1
+(94, 135) num of adjacent: 1
+(94, 134) num of adjacent: 1
+(94, 133) num of adjacent: 1
+(94, 132) num of adjacent: 1
+(95, 131) num of adjacent: 1
+(95, 130) num of adjacent: 1
+(95, 129) num of adjacent: 1
+(94, 128) num of adjacent: 1
+(93, 127) num of adjacent: 1
+(92, 127) num of adjacent: 1
+(91, 126) num of adjacent: 1
+(90, 126) num of adjacent: 1
+(89, 126) num of adjacent: 2
+(88, 126) num of adjacent: 2
+(87, 127) num of adjacent: 1
+(88, 125) num of adjacent: 1
+(88, 124) num of adjacent: 1
+(88, 123) num of adjacent: 1
+(89, 122) num of adjacent: 1
+(89, 121) num of adjacent: 1
+(89, 120) num of adjacent: 1
+(90, 119) num of adjacent: 1
+(90, 118) num of adjacent: 1
+(90, 117) num of adjacent: 1
+(91, 116) num of adjacent: 1
+(91, 115) num of adjacent: 1
+(91, 114) num of adjacent: 1
+(91, 113) num of adjacent: 1
+(91, 112) num of adjacent: 1
+(91, 111) num of adjacent: 1
+(91, 110) num of adjacent: 1
+(91, 109) num of adjacent: 1
+(91, 108) num of adjacent: 3
+(90, 107) num of adjacent: 2
+(91, 107) num of adjacent: 1
+(89, 107) num of adjacent: 1
+(88, 106) num of adjacent: 1
+(87, 105) num of adjacent: 1
+(86, 105) num of adjacent: 1
+(85, 105) num of adjacent: 1
+(84, 104) num of adjacent: 1
+(83, 104) num of adjacent: 1
+(82, 104) num of adjacent: 1
+(81, 104) num of adjacent: 1
+(80, 104) num of adjacent: 1
+(79, 104) num of adjacent: 1
+(78, 104) num of adjacent: 1
+(77, 104) num of adjacent: 1
+(76, 104) num of adjacent: 1
+(75, 103) num of adjacent: 1
+(74, 103) num of adjacent: 1
+(73, 103) num of adjacent: 1
+(72, 103) num of adjacent: 1
+(71, 103) num of adjacent: 1
+(70, 103) num of adjacent: 1
+(69, 103) num of adjacent: 1
+(68, 104) num of adjacent: 1
+(67, 104) num of adjacent: 0
+end   : (  67, 104 )
+#############################
+#############################
+     stroke order: 4
+start : (  72, 131 )
+(72, 132) num of adjacent: 1
+(73, 130) num of adjacent: 1
+(73, 129) num of adjacent: 1
+(74, 128) num of adjacent: 2
+(74, 127) num of adjacent: 2
+(75, 127) num of adjacent: 2
+(74, 126) num of adjacent: 1
+(76, 126) num of adjacent: 1
+(77, 126) num of adjacent: 1
+(78, 125) num of adjacent: 1
+(79, 125) num of adjacent: 1
+(80, 124) num of adjacent: 1
+(80, 123) num of adjacent: 0
+end   : (  80, 123 )
+#############################
+#############################
+     stroke order: 5
+start : (  72, 133 )
+(72, 134) num of adjacent: 1
+(72, 135) num of adjacent: 1
+(72, 136) num of adjacent: 0
+end   : (  72, 136 )
+#############################
+#############################
+     stroke order: 6
+start : (  74, 121 )
+(74, 122) num of adjacent: 1
+(75, 120) num of adjacent: 1
+(75, 119) num of adjacent: 1
+(75, 118) num of adjacent: 1
+(76, 117) num of adjacent: 1
+(77, 116) num of adjacent: 1
+(77, 115) num of adjacent: 1
+(77, 114) num of adjacent: 1
+(77, 113) num of adjacent: 1
+(78, 112) num of adjacent: 1
+(78, 111) num of adjacent: 1
+(78, 110) num of adjacent: 0
+end   : (  78, 110 )
+#############################
+#############################
+     stroke order: 7
+start : (  74, 123 )
+(74, 124) num of adjacent: 1
+(74, 125) num of adjacent: 0
+end   : (  74, 125 )
+#############################
+#############################
+     stroke order: 8
+start : (  85, 136 )
+(86, 135) num of adjacent: 1
+(86, 134) num of adjacent: 1
+(86, 133) num of adjacent: 1
+(86, 132) num of adjacent: 1
+(86, 131) num of adjacent: 1
+(86, 130) num of adjacent: 1
+(86, 129) num of adjacent: 1
+(87, 128) num of adjacent: 0
+end   : (  87, 128 )
+#############################
+#############################
+     stroke order: 9
+start : (  92, 107 )
+(93, 106) num of adjacent: 1
+(94, 105) num of adjacent: 1
+(95, 104) num of adjacent: 1
+(95, 103) num of adjacent: 0
+end   : (  95, 103 )
+#############################
+#############################
+     stroke order: 10
+start : (  97, 119 )
+(98, 120) num of adjacent: 1
+(99, 121) num of adjacent: 1
+(100, 122) num of adjacent: 1
+(101, 123) num of adjacent: 1
+(102, 123) num of adjacent: 1
+(103, 123) num of adjacent: 1
+(104, 124) num of adjacent: 3
+(105, 124) num of adjacent: 2
+(105, 125) num of adjacent: 1
+(105, 123) num of adjacent: 1
+(106, 122) num of adjacent: 1
+(106, 121) num of adjacent: 1
+(106, 120) num of adjacent: 1
+(107, 119) num of adjacent: 1
+(107, 118) num of adjacent: 1
+(107, 117) num of adjacent: 1
+(107, 116) num of adjacent: 1
+(107, 115) num of adjacent: 1
+(107, 114) num of adjacent: 1
+(108, 113) num of adjacent: 1
+(108, 112) num of adjacent: 1
+(108, 111) num of adjacent: 1
+(108, 110) num of adjacent: 1
+(108, 109) num of adjacent: 1
+(109, 108) num of adjacent: 1
+(109, 107) num of adjacent: 1
+(109, 106) num of adjacent: 1
+(109, 105) num of adjacent: 1
+(109, 104) num of adjacent: 1
+(110, 103) num of adjacent: 1
+(110, 102) num of adjacent: 1
+(110, 101) num of adjacent: 1
+(110, 100) num of adjacent: 1
+(110, 99) num of adjacent: 1
+(111, 98) num of adjacent: 1
+(111, 97) num of adjacent: 1
+(111, 96) num of adjacent: 1
+(111, 95) num of adjacent: 1
+(112, 94) num of adjacent: 1
+(112, 93) num of adjacent: 1
+(112, 92) num of adjacent: 1
+(112, 91) num of adjacent: 1
+(113, 90) num of adjacent: 1
+(113, 89) num of adjacent: 1
+(113, 88) num of adjacent: 1
+(113, 87) num of adjacent: 1
+(113, 86) num of adjacent: 1
+(114, 85) num of adjacent: 1
+(114, 84) num of adjacent: 1
+(114, 83) num of adjacent: 1
+(114, 82) num of adjacent: 1
+(115, 81) num of adjacent: 1
+(115, 80) num of adjacent: 1
+(116, 79) num of adjacent: 1
+(116, 78) num of adjacent: 1
+(116, 77) num of adjacent: 1
+(116, 76) num of adjacent: 1
+(117, 75) num of adjacent: 1
+(117, 74) num of adjacent: 1
+(117, 73) num of adjacent: 1
+(117, 72) num of adjacent: 1
+(117, 71) num of adjacent: 1
+(117, 70) num of adjacent: 1
+(118, 69) num of adjacent: 1
+(118, 68) num of adjacent: 1
+(118, 67) num of adjacent: 1
+(118, 66) num of adjacent: 1
+(118, 65) num of adjacent: 1
+(119, 64) num of adjacent: 1
+(119, 63) num of adjacent: 1
+(119, 62) num of adjacent: 1
+(119, 61) num of adjacent: 1
+(120, 60) num of adjacent: 1
+(120, 59) num of adjacent: 1
+(121, 58) num of adjacent: 1
+(121, 57) num of adjacent: 1
+(121, 56) num of adjacent: 1
+(120, 55) num of adjacent: 1
+(120, 54) num of adjacent: 1
+(120, 53) num of adjacent: 1
+(119, 52) num of adjacent: 1
+(119, 51) num of adjacent: 1
+(119, 50) num of adjacent: 0
+end   : ( 119,  50 )
+#############################
+#############################
+     stroke order: 11
+start : (  97, 174 )
+(97, 175) num of adjacent: 1
+(98, 173) num of adjacent: 1
+(98, 172) num of adjacent: 1
+(99, 171) num of adjacent: 1
+(99, 170) num of adjacent: 1
+(99, 169) num of adjacent: 1
+(99, 168) num of adjacent: 1
+(100, 167) num of adjacent: 1
+(100, 166) num of adjacent: 1
+(100, 165) num of adjacent: 1
+(100, 164) num of adjacent: 1
+(100, 163) num of adjacent: 1
+(100, 162) num of adjacent: 1
+(100, 161) num of adjacent: 1
+(100, 160) num of adjacent: 1
+(100, 159) num of adjacent: 1
+(100, 158) num of adjacent: 1
+(101, 157) num of adjacent: 1
+(101, 156) num of adjacent: 1
+(101, 155) num of adjacent: 1
+(101, 154) num of adjacent: 1
+(101, 153) num of adjacent: 1
+(101, 152) num of adjacent: 1
+(101, 151) num of adjacent: 1
+(102, 150) num of adjacent: 1
+(102, 149) num of adjacent: 1
+(102, 148) num of adjacent: 1
+(102, 147) num of adjacent: 1
+(102, 146) num of adjacent: 1
+(102, 145) num of adjacent: 1
+(102, 144) num of adjacent: 1
+(102, 143) num of adjacent: 1
+(103, 142) num of adjacent: 1
+(103, 141) num of adjacent: 1
+(103, 140) num of adjacent: 1
+(103, 139) num of adjacent: 1
+(103, 138) num of adjacent: 1
+(104, 137) num of adjacent: 1
+(104, 136) num of adjacent: 1
+(104, 135) num of adjacent: 1
+(104, 134) num of adjacent: 1
+(104, 133) num of adjacent: 1
+(104, 132) num of adjacent: 1
+(104, 131) num of adjacent: 1
+(105, 130) num of adjacent: 1
+(105, 129) num of adjacent: 1
+(105, 128) num of adjacent: 2
+(105, 127) num of adjacent: 2
+(106, 127) num of adjacent: 2
+(105, 126) num of adjacent: 0
+(107, 126) num of adjacent: 1
+(108, 126) num of adjacent: 1
+(109, 126) num of adjacent: 1
+(110, 126) num of adjacent: 1
+(111, 126) num of adjacent: 1
+(112, 126) num of adjacent: 1
+(113, 126) num of adjacent: 1
+(114, 126) num of adjacent: 1
+(115, 126) num of adjacent: 1
+(116, 126) num of adjacent: 1
+(117, 126) num of adjacent: 1
+(118, 126) num of adjacent: 1
+(119, 126) num of adjacent: 1
+(120, 126) num of adjacent: 1
+(121, 126) num of adjacent: 1
+(122, 126) num of adjacent: 1
+(123, 126) num of adjacent: 1
+(124, 126) num of adjacent: 1
+(125, 126) num of adjacent: 1
+(126, 126) num of adjacent: 1
+(127, 126) num of adjacent: 1
+(128, 126) num of adjacent: 1
+(129, 126) num of adjacent: 1
+(130, 126) num of adjacent: 1
+(131, 126) num of adjacent: 1
+(132, 126) num of adjacent: 1
+(133, 126) num of adjacent: 1
+(134, 126) num of adjacent: 1
+(135, 126) num of adjacent: 1
+(136, 126) num of adjacent: 1
+(137, 126) num of adjacent: 1
+(138, 127) num of adjacent: 1
+(139, 127) num of adjacent: 1
+(140, 127) num of adjacent: 1
+(141, 127) num of adjacent: 1
+(142, 127) num of adjacent: 1
+(143, 127) num of adjacent: 1
+(144, 127) num of adjacent: 1
+(145, 127) num of adjacent: 1
+(146, 127) num of adjacent: 1
+(147, 127) num of adjacent: 1
+(148, 127) num of adjacent: 1
+(149, 127) num of adjacent: 1
+(150, 127) num of adjacent: 1
+(151, 127) num of adjacent: 1
+(152, 127) num of adjacent: 1
+(153, 127) num of adjacent: 1
+(154, 127) num of adjacent: 1
+(155, 127) num of adjacent: 1
+(156, 127) num of adjacent: 1
+(157, 127) num of adjacent: 1
+(158, 127) num of adjacent: 1
+(159, 127) num of adjacent: 1
+(160, 127) num of adjacent: 1
+(161, 127) num of adjacent: 1
+(162, 127) num of adjacent: 1
+(163, 127) num of adjacent: 1
+(164, 127) num of adjacent: 1
+(165, 127) num of adjacent: 1
+(166, 127) num of adjacent: 1
+(167, 127) num of adjacent: 1
+(168, 127) num of adjacent: 1
+(169, 127) num of adjacent: 1
+(170, 127) num of adjacent: 1
+(171, 127) num of adjacent: 1
+(172, 127) num of adjacent: 1
+(173, 127) num of adjacent: 1
+(174, 127) num of adjacent: 1
+(175, 127) num of adjacent: 1
+(176, 127) num of adjacent: 1
+(177, 127) num of adjacent: 1
+(178, 127) num of adjacent: 1
+(179, 127) num of adjacent: 1
+(180, 127) num of adjacent: 2
+(181, 127) num of adjacent: 2
+(182, 127) num of adjacent: 2
+(183, 127) num of adjacent: 1
+(181, 126) num of adjacent: 1
+(180, 125) num of adjacent: 1
+(180, 124) num of adjacent: 1
+(180, 123) num of adjacent: 0
+end   : ( 180, 123 )
+#############################
+#############################
+     stroke order: 12
+start : (  97, 176 )
+(98, 177) num of adjacent: 1
+(99, 178) num of adjacent: 1
+(99, 179) num of adjacent: 1
+(100, 180) num of adjacent: 1
+(100, 181) num of adjacent: 1
+(101, 182) num of adjacent: 1
+(101, 183) num of adjacent: 1
+(101, 184) num of adjacent: 1
+(102, 185) num of adjacent: 1
+(103, 186) num of adjacent: 1
+(103, 187) num of adjacent: 1
+(104, 188) num of adjacent: 1
+(104, 189) num of adjacent: 1
+(105, 190) num of adjacent: 1
+(106, 191) num of adjacent: 1
+(107, 192) num of adjacent: 1
+(107, 193) num of adjacent: 1
+(108, 194) num of adjacent: 1
+(108, 195) num of adjacent: 0
+end   : ( 108, 195 )
+#############################
+#############################
+     stroke order: 13
+start : ( 184, 128 )
+(185, 129) num of adjacent: 1
+(186, 130) num of adjacent: 1
+(187, 130) num of adjacent: 1
+(188, 131) num of adjacent: 1
+(189, 131) num of adjacent: 1
+(190, 132) num of adjacent: 1
+(191, 133) num of adjacent: 1
+(192, 133) num of adjacent: 1
+(193, 134) num of adjacent: 1
+(194, 135) num of adjacent: 1
+(195, 135) num of adjacent: 0
+end   : ( 195, 135 )
+#############################
+stroke len: 9
+img path: data/SG\¥Ã/¥Ã.jpg
+#############################
+     stroke order: 1
+start : (  36, 108 )
+(36, 109) num of adjacent: 1
+(37, 110) num of adjacent: 1
+(37, 111) num of adjacent: 1
+(38, 112) num of adjacent: 1
+(39, 113) num of adjacent: 1
+(40, 114) num of adjacent: 1
+(41, 115) num of adjacent: 1
+(41, 116) num of adjacent: 1
+(42, 117) num of adjacent: 1
+(43, 118) num of adjacent: 1
+(44, 118) num of adjacent: 1
+(45, 119) num of adjacent: 1
+(45, 120) num of adjacent: 1
+(46, 121) num of adjacent: 1
+(47, 122) num of adjacent: 0
+end   : (  47, 122 )
+#############################
+#############################
+     stroke order: 2
+start : (  68, 113 )
+(69, 113) num of adjacent: 2
+(70, 113) num of adjacent: 2
+(70, 114) num of adjacent: 1
+(71, 112) num of adjacent: 1
+(71, 111) num of adjacent: 1
+(72, 110) num of adjacent: 1
+(72, 109) num of adjacent: 1
+(72, 108) num of adjacent: 1
+(73, 107) num of adjacent: 1
+(73, 106) num of adjacent: 1
+(74, 105) num of adjacent: 1
+(74, 104) num of adjacent: 1
+(74, 103) num of adjacent: 1
+(75, 102) num of adjacent: 1
+(75, 101) num of adjacent: 1
+(76, 100) num of adjacent: 1
+(76, 99) num of adjacent: 1
+(77, 98) num of adjacent: 1
+(78, 97) num of adjacent: 1
+(78, 96) num of adjacent: 1
+(78, 95) num of adjacent: 1
+(79, 94) num of adjacent: 1
+(79, 93) num of adjacent: 1
+(80, 92) num of adjacent: 1
+(80, 91) num of adjacent: 1
+(80, 90) num of adjacent: 1
+(81, 89) num of adjacent: 1
+(81, 88) num of adjacent: 1
+(81, 87) num of adjacent: 1
+(81, 86) num of adjacent: 1
+(82, 85) num of adjacent: 1
+(82, 84) num of adjacent: 1
+(81, 83) num of adjacent: 1
+(81, 82) num of adjacent: 1
+(81, 81) num of adjacent: 0
+end   : (  81,  81 )
+#############################
+#############################
+     stroke order: 3
+start : (  68, 118 )
+(68, 119) num of adjacent: 1
+(69, 117) num of adjacent: 1
+(69, 116) num of adjacent: 1
+(70, 115) num of adjacent: 0
+end   : (  70, 115 )
+#############################
+#############################
+     stroke order: 4
+start : (  68, 120 )
+(69, 121) num of adjacent: 2
+(70, 121) num of adjacent: 2
+(71, 121) num of adjacent: 1
+(69, 122) num of adjacent: 1
+(69, 123) num of adjacent: 1
+(69, 124) num of adjacent: 1
+(69, 125) num of adjacent: 1
+(69, 126) num of adjacent: 0
+end   : (  69, 126 )
+#############################
+#############################
+     stroke order: 5
+start : (  72, 121 )
+(73, 120) num of adjacent: 1
+(74, 120) num of adjacent: 1
+(75, 120) num of adjacent: 1
+(76, 120) num of adjacent: 1
+(77, 119) num of adjacent: 1
+(78, 119) num of adjacent: 1
+(79, 119) num of adjacent: 1
+(80, 119) num of adjacent: 1
+(81, 118) num of adjacent: 1
+(82, 118) num of adjacent: 1
+(83, 118) num of adjacent: 1
+(84, 118) num of adjacent: 1
+(85, 118) num of adjacent: 1
+(86, 118) num of adjacent: 1
+(87, 118) num of adjacent: 1
+(88, 118) num of adjacent: 1
+(89, 117) num of adjacent: 1
+(90, 117) num of adjacent: 1
+(91, 117) num of adjacent: 1
+(92, 117) num of adjacent: 1
+(93, 117) num of adjacent: 1
+(94, 117) num of adjacent: 1
+(95, 117) num of adjacent: 1
+(96, 117) num of adjacent: 1
+(97, 117) num of adjacent: 1
+(98, 117) num of adjacent: 1
+(99, 117) num of adjacent: 1
+(100, 117) num of adjacent: 1
+(101, 117) num of adjacent: 1
+(102, 116) num of adjacent: 1
+(103, 116) num of adjacent: 1
+(104, 116) num of adjacent: 1
+(105, 116) num of adjacent: 1
+(106, 116) num of adjacent: 1
+(107, 117) num of adjacent: 1
+(108, 117) num of adjacent: 1
+(109, 117) num of adjacent: 1
+(110, 117) num of adjacent: 2
+(111, 117) num of adjacent: 2
+(112, 117) num of adjacent: 2
+(111, 118) num of adjacent: 1
+(113, 116) num of adjacent: 1
+(114, 116) num of adjacent: 1
+(115, 116) num of adjacent: 1
+(116, 116) num of adjacent: 1
+(117, 116) num of adjacent: 1
+(118, 116) num of adjacent: 1
+(119, 116) num of adjacent: 1
+(120, 116) num of adjacent: 1
+(121, 116) num of adjacent: 1
+(122, 116) num of adjacent: 1
+(123, 116) num of adjacent: 1
+(124, 116) num of adjacent: 1
+(125, 116) num of adjacent: 1
+(126, 116) num of adjacent: 1
+(127, 116) num of adjacent: 1
+(128, 116) num of adjacent: 1
+(129, 116) num of adjacent: 1
+(130, 116) num of adjacent: 1
+(131, 116) num of adjacent: 1
+(132, 116) num of adjacent: 1
+(133, 116) num of adjacent: 1
+(134, 116) num of adjacent: 1
+(135, 117) num of adjacent: 1
+(136, 117) num of adjacent: 1
+(137, 117) num of adjacent: 1
+(138, 117) num of adjacent: 1
+(139, 117) num of adjacent: 1
+(140, 117) num of adjacent: 1
+(141, 117) num of adjacent: 1
+(142, 117) num of adjacent: 1
+(143, 117) num of adjacent: 1
+(144, 117) num of adjacent: 1
+(145, 117) num of adjacent: 1
+(146, 117) num of adjacent: 1
+(147, 117) num of adjacent: 1
+(148, 117) num of adjacent: 1
+(149, 117) num of adjacent: 1
+(150, 117) num of adjacent: 1
+(151, 117) num of adjacent: 1
+(152, 117) num of adjacent: 1
+(153, 117) num of adjacent: 1
+(154, 117) num of adjacent: 1
+(155, 117) num of adjacent: 1
+(156, 117) num of adjacent: 1
+(157, 117) num of adjacent: 1
+(158, 117) num of adjacent: 1
+(159, 117) num of adjacent: 1
+(160, 117) num of adjacent: 1
+(161, 118) num of adjacent: 1
+(162, 118) num of adjacent: 1
+(163, 118) num of adjacent: 1
+(164, 118) num of adjacent: 1
+(165, 118) num of adjacent: 1
+(166, 118) num of adjacent: 1
+(167, 118) num of adjacent: 1
+(168, 118) num of adjacent: 1
+(169, 118) num of adjacent: 1
+(170, 118) num of adjacent: 1
+(171, 118) num of adjacent: 1
+(172, 119) num of adjacent: 1
+(173, 119) num of adjacent: 1
+(174, 119) num of adjacent: 1
+(175, 119) num of adjacent: 1
+(176, 119) num of adjacent: 1
+(177, 119) num of adjacent: 1
+(178, 119) num of adjacent: 1
+(179, 119) num of adjacent: 1
+(180, 119) num of adjacent: 1
+(181, 119) num of adjacent: 1
+(182, 119) num of adjacent: 1
+(183, 119) num of adjacent: 1
+(184, 119) num of adjacent: 1
+(185, 118) num of adjacent: 2
+(186, 118) num of adjacent: 2
+(187, 118) num of adjacent: 2
+(188, 118) num of adjacent: 1
+(186, 117) num of adjacent: 1
+(186, 116) num of adjacent: 1
+(185, 115) num of adjacent: 1
+(185, 114) num of adjacent: 1
+(184, 113) num of adjacent: 1
+(184, 112) num of adjacent: 1
+(184, 111) num of adjacent: 1
+(183, 110) num of adjacent: 1
+(182, 109) num of adjacent: 1
+(181, 108) num of adjacent: 1
+(181, 107) num of adjacent: 1
+(180, 106) num of adjacent: 1
+(179, 105) num of adjacent: 1
+(178, 104) num of adjacent: 1
+(177, 103) num of adjacent: 1
+(177, 102) num of adjacent: 1
+(176, 101) num of adjacent: 1
+(175, 100) num of adjacent: 1
+(174, 99) num of adjacent: 1
+(173, 98) num of adjacent: 1
+(172, 97) num of adjacent: 1
+(171, 96) num of adjacent: 1
+(170, 95) num of adjacent: 1
+(170, 94) num of adjacent: 0
+end   : ( 170,  94 )
+#############################
+#############################
+     stroke order: 6
+start : (  74, 153 )
+(74, 154) num of adjacent: 1
+(75, 152) num of adjacent: 1
+(75, 151) num of adjacent: 1
+(76, 150) num of adjacent: 1
+(77, 149) num of adjacent: 1
+(77, 148) num of adjacent: 0
+end   : (  77, 148 )
+#############################
+#############################
+     stroke order: 7
+start : (  74, 155 )
+(75, 156) num of adjacent: 1
+(76, 157) num of adjacent: 2
+(77, 157) num of adjacent: 2
+(76, 158) num of adjacent: 1
+(78, 156) num of adjacent: 1
+(79, 155) num of adjacent: 1
+(80, 154) num of adjacent: 1
+(81, 153) num of adjacent: 1
+(82, 153) num of adjacent: 1
+(83, 152) num of adjacent: 1
+(84, 151) num of adjacent: 1
+(85, 150) num of adjacent: 1
+(86, 149) num of adjacent: 1
+(87, 148) num of adjacent: 1
+(88, 147) num of adjacent: 1
+(89, 146) num of adjacent: 1
+(89, 145) num of adjacent: 1
+(90, 144) num of adjacent: 1
+(91, 143) num of adjacent: 1
+(92, 142) num of adjacent: 1
+(93, 141) num of adjacent: 1
+(94, 140) num of adjacent: 1
+(95, 139) num of adjacent: 1
+(95, 138) num of adjacent: 1
+(96, 137) num of adjacent: 1
+(97, 137) num of adjacent: 1
+(98, 136) num of adjacent: 1
+(99, 135) num of adjacent: 1
+(100, 134) num of adjacent: 1
+(100, 133) num of adjacent: 1
+(101, 132) num of adjacent: 1
+(102, 131) num of adjacent: 1
+(102, 130) num of adjacent: 1
+(103, 129) num of adjacent: 1
+(104, 128) num of adjacent: 1
+(105, 127) num of adjacent: 1
+(106, 126) num of adjacent: 1
+(107, 125) num of adjacent: 1
+(108, 124) num of adjacent: 1
+(109, 123) num of adjacent: 1
+(110, 122) num of adjacent: 1
+(111, 121) num of adjacent: 2
+(112, 122) num of adjacent: 1
+(111, 120) num of adjacent: 1
+(111, 119) num of adjacent: 0
+end   : ( 111, 119 )
+#############################
+#############################
+     stroke order: 8
+start : (  74, 162 )
+(74, 163) num of adjacent: 1
+(75, 161) num of adjacent: 1
+(75, 160) num of adjacent: 1
+(75, 159) num of adjacent: 0
+end   : (  75, 159 )
+#############################
+#############################
+     stroke order: 9
+start : (  74, 164 )
+(74, 165) num of adjacent: 1
+(74, 166) num of adjacent: 1
+(74, 167) num of adjacent: 0
+end   : (  74, 167 )
+#############################
+#############################
+     stroke order: 10
+start : ( 105, 101 )
+(106, 101) num of adjacent: 1
+(107, 101) num of adjacent: 1
+(108, 101) num of adjacent: 1
+(109, 102) num of adjacent: 1
+(110, 103) num of adjacent: 2
+(110, 104) num of adjacent: 1
+(111, 102) num of adjacent: 2
+(112, 102) num of adjacent: 2
+(111, 101) num of adjacent: 1
+(113, 101) num of adjacent: 1
+(114, 101) num of adjacent: 1
+(115, 101) num of adjacent: 1
+(116, 100) num of adjacent: 1
+(117, 100) num of adjacent: 1
+(118, 100) num of adjacent: 1
+(119, 100) num of adjacent: 1
+(120, 99) num of adjacent: 1
+(121, 99) num of adjacent: 1
+(122, 99) num of adjacent: 1
+(123, 98) num of adjacent: 1
+(124, 98) num of adjacent: 1
+(125, 97) num of adjacent: 1
+(126, 96) num of adjacent: 1
+(127, 96) num of adjacent: 1
+(128, 96) num of adjacent: 1
+(129, 95) num of adjacent: 1
+(130, 95) num of adjacent: 1
+(131, 94) num of adjacent: 1
+(132, 94) num of adjacent: 1
+(133, 94) num of adjacent: 1
+(134, 93) num of adjacent: 1
+(135, 93) num of adjacent: 1
+(136, 92) num of adjacent: 1
+(137, 91) num of adjacent: 1
+(138, 91) num of adjacent: 1
+(139, 90) num of adjacent: 1
+(140, 90) num of adjacent: 1
+(141, 89) num of adjacent: 1
+(142, 88) num of adjacent: 1
+(143, 87) num of adjacent: 1
+(144, 86) num of adjacent: 1
+(145, 86) num of adjacent: 1
+(146, 85) num of adjacent: 1
+(147, 84) num of adjacent: 1
+(148, 83) num of adjacent: 1
+(149, 82) num of adjacent: 1
+(150, 82) num of adjacent: 1
+(151, 81) num of adjacent: 1
+(152, 81) num of adjacent: 1
+(153, 80) num of adjacent: 1
+(153, 79) num of adjacent: 1
+(154, 78) num of adjacent: 1
+(155, 77) num of adjacent: 1
+(155, 76) num of adjacent: 1
+(156, 75) num of adjacent: 1
+(157, 74) num of adjacent: 1
+(158, 73) num of adjacent: 1
+(158, 72) num of adjacent: 1
+(159, 71) num of adjacent: 1
+(160, 70) num of adjacent: 1
+(160, 69) num of adjacent: 1
+(161, 68) num of adjacent: 1
+(162, 67) num of adjacent: 1
+(162, 66) num of adjacent: 1
+(163, 65) num of adjacent: 1
+(163, 64) num of adjacent: 1
+(164, 63) num of adjacent: 1
+(164, 62) num of adjacent: 1
+(165, 61) num of adjacent: 1
+(165, 60) num of adjacent: 1
+(165, 59) num of adjacent: 1
+(166, 58) num of adjacent: 1
+(167, 57) num of adjacent: 1
+(167, 56) num of adjacent: 1
+(167, 55) num of adjacent: 1
+(168, 54) num of adjacent: 1
+(169, 54) num of adjacent: 0
+end   : ( 169,  54 )
+#############################
+#############################
+     stroke order: 11
+start : ( 109, 108 )
+(110, 107) num of adjacent: 1
+(110, 106) num of adjacent: 1
+(110, 105) num of adjacent: 0
+end   : ( 110, 105 )
+#############################
+#############################
+     stroke order: 12
+start : ( 111,  94 )
+(111, 95) num of adjacent: 1
+(112, 93) num of adjacent: 1
+(112, 92) num of adjacent: 1
+(113, 91) num of adjacent: 1
+(113, 90) num of adjacent: 1
+(114, 89) num of adjacent: 1
+(114, 88) num of adjacent: 1
+(114, 87) num of adjacent: 1
+(114, 86) num of adjacent: 1
+(115, 85) num of adjacent: 1
+(115, 84) num of adjacent: 1
+(116, 83) num of adjacent: 1
+(116, 82) num of adjacent: 1
+(116, 81) num of adjacent: 1
+(117, 80) num of adjacent: 1
+(117, 79) num of adjacent: 1
+(117, 78) num of adjacent: 1
+(118, 77) num of adjacent: 1
+(118, 76) num of adjacent: 1
+(118, 75) num of adjacent: 1
+(118, 74) num of adjacent: 1
+(119, 73) num of adjacent: 1
+(119, 72) num of adjacent: 1
+(120, 71) num of adjacent: 1
+(120, 70) num of adjacent: 1
+(120, 69) num of adjacent: 1
+(121, 68) num of adjacent: 1
+(121, 67) num of adjacent: 1
+(121, 66) num of adjacent: 1
+(121, 65) num of adjacent: 1
+(120, 64) num of adjacent: 0
+end   : ( 120,  64 )
+#############################
+#############################
+     stroke order: 13
+start : ( 111,  96 )
+(111, 97) num of adjacent: 1
+(111, 98) num of adjacent: 1
+(111, 99) num of adjacent: 1
+(111, 100) num of adjacent: 0
+end   : ( 111, 100 )
+#############################
+#############################
+     stroke order: 14
+start : ( 113, 123 )
+(114, 124) num of adjacent: 1
+(114, 125) num of adjacent: 1
+(115, 126) num of adjacent: 1
+(116, 127) num of adjacent: 1
+(117, 128) num of adjacent: 1
+(118, 129) num of adjacent: 1
+(119, 130) num of adjacent: 1
+(120, 131) num of adjacent: 1
+(121, 132) num of adjacent: 1
+(122, 133) num of adjacent: 1
+(123, 134) num of adjacent: 1
+(124, 135) num of adjacent: 1
+(125, 136) num of adjacent: 1
+(126, 137) num of adjacent: 1
+(127, 138) num of adjacent: 1
+(128, 139) num of adjacent: 1
+(128, 140) num of adjacent: 1
+(129, 141) num of adjacent: 1
+(130, 142) num of adjacent: 1
+(131, 143) num of adjacent: 1
+(132, 144) num of adjacent: 1
+(133, 145) num of adjacent: 1
+(134, 145) num of adjacent: 1
+(135, 146) num of adjacent: 1
+(136, 147) num of adjacent: 1
+(137, 148) num of adjacent: 1
+(137, 149) num of adjacent: 1
+(138, 150) num of adjacent: 1
+(139, 151) num of adjacent: 1
+(140, 152) num of adjacent: 1
+(141, 153) num of adjacent: 1
+(142, 154) num of adjacent: 1
+(143, 155) num of adjacent: 1
+(144, 156) num of adjacent: 1
+(145, 157) num of adjacent: 1
+(145, 158) num of adjacent: 1
+(146, 159) num of adjacent: 1
+(146, 160) num of adjacent: 1
+(147, 161) num of adjacent: 1
+(148, 162) num of adjacent: 1
+(149, 163) num of adjacent: 1
+(150, 164) num of adjacent: 1
+(151, 165) num of adjacent: 1
+(152, 166) num of adjacent: 1
+(152, 167) num of adjacent: 1
+(152, 168) num of adjacent: 1
+(153, 169) num of adjacent: 1
+(153, 170) num of adjacent: 1
+(153, 171) num of adjacent: 1
+(153, 172) num of adjacent: 1
+(154, 173) num of adjacent: 1
+(154, 174) num of adjacent: 1
+(154, 175) num of adjacent: 1
+(154, 176) num of adjacent: 1
+(155, 177) num of adjacent: 1
+(155, 178) num of adjacent: 1
+(155, 179) num of adjacent: 1
+(155, 180) num of adjacent: 1
+(155, 181) num of adjacent: 1
+(155, 182) num of adjacent: 1
+(155, 183) num of adjacent: 1
+(155, 184) num of adjacent: 1
+(155, 185) num of adjacent: 1
+(155, 186) num of adjacent: 1
+(155, 187) num of adjacent: 1
+(155, 188) num of adjacent: 1
+(155, 189) num of adjacent: 1
+(156, 190) num of adjacent: 1
+(156, 191) num of adjacent: 1
+(156, 192) num of adjacent: 1
+(156, 193) num of adjacent: 1
+(156, 194) num of adjacent: 1
+(157, 195) num of adjacent: 1
+(157, 196) num of adjacent: 1
+(157, 197) num of adjacent: 1
+(157, 198) num of adjacent: 1
+(157, 199) num of adjacent: 1
+(157, 200) num of adjacent: 1
+(157, 201) num of adjacent: 1
+(157, 202) num of adjacent: 1
+(158, 203) num of adjacent: 1
+(158, 204) num of adjacent: 1
+(158, 205) num of adjacent: 1
+(159, 206) num of adjacent: 1
+(159, 207) num of adjacent: 1
+(159, 208) num of adjacent: 1
+(160, 209) num of adjacent: 0
+end   : ( 160, 209 )
+#############################
+#############################
+     stroke order: 15
+start : ( 132, 140 )
+end   : ( 132, 140 )
+#############################
+#############################
+     stroke order: 16
+start : ( 189, 119 )
+(189, 120) num of adjacent: 1
+(190, 121) num of adjacent: 1
+(191, 122) num of adjacent: 1
+(192, 122) num of adjacent: 1
+(193, 123) num of adjacent: 1
+(194, 123) num of adjacent: 0
+end   : ( 194, 123 )
+#############################
+stroke len: 7
+img path: data/BK\¥Ã/0000.jpg
+character: ¥Ã
+#############################
+     stroke order: 1
+start : (  33, 113 )
+(34, 114) num of adjacent: 1
+(35, 115) num of adjacent: 1
+(36, 116) num of adjacent: 1
+(37, 117) num of adjacent: 1
+(38, 118) num of adjacent: 1
+(39, 119) num of adjacent: 1
+(40, 120) num of adjacent: 1
+(41, 121) num of adjacent: 1
+(42, 122) num of adjacent: 1
+(43, 123) num of adjacent: 1
+(44, 124) num of adjacent: 1
+(45, 125) num of adjacent: 1
+(46, 126) num of adjacent: 1
+(47, 126) num of adjacent: 1
+(48, 127) num of adjacent: 1
+(49, 128) num of adjacent: 1
+(50, 128) num of adjacent: 1
+(51, 128) num of adjacent: 1
+(52, 128) num of adjacent: 1
+(53, 129) num of adjacent: 0
+end   : (  53, 129 )
+#############################
+stroke len: 1
+img path: data/BK\¥Ã/0001.jpg
+character: ¥Ã
+#############################
+     stroke order: 1
+start : (  86, 122 )
+(86, 123) num of adjacent: 1
+(87, 121) num of adjacent: 1
+(87, 120) num of adjacent: 1
+(87, 119) num of adjacent: 1
+(87, 118) num of adjacent: 1
+(87, 117) num of adjacent: 1
+(87, 116) num of adjacent: 1
+(88, 115) num of adjacent: 1
+(88, 114) num of adjacent: 1
+(88, 113) num of adjacent: 1
+(89, 112) num of adjacent: 1
+(89, 111) num of adjacent: 1
+(89, 110) num of adjacent: 1
+(89, 109) num of adjacent: 1
+(90, 108) num of adjacent: 1
+(90, 107) num of adjacent: 1
+(90, 106) num of adjacent: 1
+(90, 105) num of adjacent: 1
+(91, 104) num of adjacent: 1
+(91, 103) num of adjacent: 1
+(91, 102) num of adjacent: 1
+(91, 101) num of adjacent: 1
+(91, 100) num of adjacent: 1
+(90, 99) num of adjacent: 0
+end   : (  90,  99 )
+#############################
+#############################
+     stroke order: 2
+start : (  86, 124 )
+(87, 125) num of adjacent: 1
+(88, 126) num of adjacent: 1
+(89, 126) num of adjacent: 1
+(90, 126) num of adjacent: 1
+(91, 126) num of adjacent: 1
+(92, 126) num of adjacent: 1
+(93, 126) num of adjacent: 1
+(94, 126) num of adjacent: 1
+(95, 126) num of adjacent: 1
+(96, 126) num of adjacent: 1
+(97, 126) num of adjacent: 1
+(98, 126) num of adjacent: 1
+(99, 126) num of adjacent: 1
+(100, 126) num of adjacent: 1
+(101, 126) num of adjacent: 1
+(102, 126) num of adjacent: 1
+(103, 126) num of adjacent: 1
+(104, 126) num of adjacent: 1
+(105, 126) num of adjacent: 1
+(106, 126) num of adjacent: 1
+(107, 126) num of adjacent: 1
+(108, 126) num of adjacent: 1
+(109, 126) num of adjacent: 1
+(110, 126) num of adjacent: 1
+(111, 126) num of adjacent: 1
+(112, 126) num of adjacent: 1
+(113, 126) num of adjacent: 1
+(114, 126) num of adjacent: 1
+(115, 126) num of adjacent: 1
+(116, 126) num of adjacent: 1
+(117, 126) num of adjacent: 1
+(118, 126) num of adjacent: 1
+(119, 126) num of adjacent: 1
+(120, 126) num of adjacent: 1
+(121, 126) num of adjacent: 1
+(122, 126) num of adjacent: 1
+(123, 126) num of adjacent: 1
+(124, 126) num of adjacent: 1
+(125, 126) num of adjacent: 1
+(126, 126) num of adjacent: 1
+(127, 126) num of adjacent: 1
+(128, 126) num of adjacent: 1
+(129, 126) num of adjacent: 1
+(130, 126) num of adjacent: 1
+(131, 126) num of adjacent: 1
+(132, 126) num of adjacent: 1
+(133, 126) num of adjacent: 1
+(134, 126) num of adjacent: 1
+(135, 126) num of adjacent: 1
+(136, 126) num of adjacent: 1
+(137, 126) num of adjacent: 1
+(138, 126) num of adjacent: 1
+(139, 126) num of adjacent: 1
+(140, 126) num of adjacent: 1
+(141, 126) num of adjacent: 1
+(142, 126) num of adjacent: 1
+(143, 126) num of adjacent: 1
+(144, 126) num of adjacent: 1
+(145, 126) num of adjacent: 1
+(146, 126) num of adjacent: 1
+(147, 126) num of adjacent: 1
+(148, 126) num of adjacent: 1
+(149, 126) num of adjacent: 1
+(150, 126) num of adjacent: 1
+(151, 126) num of adjacent: 1
+(152, 126) num of adjacent: 1
+(153, 126) num of adjacent: 1
+(154, 126) num of adjacent: 1
+(155, 126) num of adjacent: 1
+(156, 126) num of adjacent: 1
+(157, 126) num of adjacent: 1
+(158, 126) num of adjacent: 1
+(159, 126) num of adjacent: 1
+(160, 126) num of adjacent: 1
+(161, 126) num of adjacent: 1
+(162, 126) num of adjacent: 1
+(163, 126) num of adjacent: 1
+(164, 126) num of adjacent: 1
+(165, 126) num of adjacent: 1
+(166, 126) num of adjacent: 1
+(167, 126) num of adjacent: 1
+(168, 126) num of adjacent: 1
+(169, 126) num of adjacent: 1
+(170, 126) num of adjacent: 1
+(171, 126) num of adjacent: 1
+(172, 126) num of adjacent: 1
+(173, 126) num of adjacent: 1
+(174, 126) num of adjacent: 1
+(175, 126) num of adjacent: 1
+(176, 126) num of adjacent: 1
+(177, 126) num of adjacent: 1
+(178, 126) num of adjacent: 1
+(179, 126) num of adjacent: 1
+(180, 126) num of adjacent: 1
+(181, 125) num of adjacent: 1
+(182, 125) num of adjacent: 1
+(183, 125) num of adjacent: 1
+(184, 125) num of adjacent: 1
+(185, 125) num of adjacent: 1
+(186, 125) num of adjacent: 1
+(187, 125) num of adjacent: 1
+(188, 125) num of adjacent: 1
+(189, 125) num of adjacent: 1
+(190, 125) num of adjacent: 1
+(191, 125) num of adjacent: 1
+(192, 125) num of adjacent: 1
+(193, 125) num of adjacent: 1
+(194, 125) num of adjacent: 1
+(195, 125) num of adjacent: 1
+(196, 125) num of adjacent: 1
+(197, 125) num of adjacent: 1
+(198, 125) num of adjacent: 1
+(199, 125) num of adjacent: 1
+(200, 125) num of adjacent: 1
+(201, 125) num of adjacent: 1
+(202, 125) num of adjacent: 1
+(203, 125) num of adjacent: 1
+(204, 124) num of adjacent: 1
+(205, 124) num of adjacent: 1
+(206, 124) num of adjacent: 1
+(207, 124) num of adjacent: 1
+(208, 124) num of adjacent: 1
+(209, 124) num of adjacent: 1
+(210, 123) num of adjacent: 1
+(211, 123) num of adjacent: 1
+(212, 123) num of adjacent: 1
+(213, 122) num of adjacent: 1
+(214, 122) num of adjacent: 1
+(215, 121) num of adjacent: 1
+(216, 120) num of adjacent: 2
+(217, 120) num of adjacent: 2
+(218, 120) num of adjacent: 1
+(216, 119) num of adjacent: 1
+(215, 118) num of adjacent: 1
+(215, 117) num of adjacent: 1
+(214, 116) num of adjacent: 1
+(214, 115) num of adjacent: 1
+(213, 114) num of adjacent: 1
+(213, 113) num of adjacent: 1
+(213, 112) num of adjacent: 1
+(212, 111) num of adjacent: 1
+(211, 110) num of adjacent: 1
+(210, 109) num of adjacent: 1
+(209, 108) num of adjacent: 1
+(208, 107) num of adjacent: 1
+(207, 106) num of adjacent: 1
+(206, 105) num of adjacent: 1
+(205, 104) num of adjacent: 1
+(204, 103) num of adjacent: 1
+(203, 102) num of adjacent: 1
+(202, 101) num of adjacent: 0
+end   : ( 202, 101 )
+#############################
+#############################
+     stroke order: 3
+start : ( 219, 120 )
+(220, 120) num of adjacent: 1
+(221, 120) num of adjacent: 1
+(222, 120) num of adjacent: 1
+(223, 120) num of adjacent: 0
+end   : ( 223, 120 )
+#############################
+stroke len: 2
+img path: data/BK\¥Ã/0002.jpg
+character: ¥Ã
+#############################
+     stroke order: 1
+start : ( 127, 102 )
+(128, 103) num of adjacent: 1
+(128, 101) num of adjacent: 1
+(128, 100) num of adjacent: 1
+(128, 99) num of adjacent: 1
+(128, 98) num of adjacent: 1
+(128, 97) num of adjacent: 1
+(128, 96) num of adjacent: 1
+(129, 95) num of adjacent: 1
+(129, 94) num of adjacent: 1
+(129, 93) num of adjacent: 1
+(129, 92) num of adjacent: 1
+(130, 91) num of adjacent: 1
+(130, 90) num of adjacent: 1
+(130, 89) num of adjacent: 1
+(130, 88) num of adjacent: 1
+(131, 87) num of adjacent: 1
+(131, 86) num of adjacent: 1
+(131, 85) num of adjacent: 1
+(132, 84) num of adjacent: 1
+(132, 83) num of adjacent: 1
+(132, 82) num of adjacent: 1
+(132, 81) num of adjacent: 1
+(133, 80) num of adjacent: 1
+(133, 79) num of adjacent: 1
+(133, 78) num of adjacent: 1
+(133, 77) num of adjacent: 1
+(134, 76) num of adjacent: 1
+(134, 75) num of adjacent: 1
+(134, 74) num of adjacent: 1
+(134, 73) num of adjacent: 1
+(135, 72) num of adjacent: 1
+(134, 71) num of adjacent: 1
+(134, 70) num of adjacent: 1
+(134, 69) num of adjacent: 1
+(133, 68) num of adjacent: 1
+(133, 67) num of adjacent: 1
+(133, 66) num of adjacent: 0
+end   : ( 133,  66 )
+#############################
+#############################
+     stroke order: 2
+start : ( 129, 103 )
+(130, 104) num of adjacent: 1
+(131, 104) num of adjacent: 1
+(132, 104) num of adjacent: 1
+(133, 104) num of adjacent: 1
+(134, 104) num of adjacent: 1
+(135, 104) num of adjacent: 1
+(136, 103) num of adjacent: 1
+(137, 103) num of adjacent: 1
+(138, 103) num of adjacent: 1
+(139, 103) num of adjacent: 1
+(140, 103) num of adjacent: 1
+(141, 102) num of adjacent: 1
+(142, 102) num of adjacent: 1
+(143, 101) num of adjacent: 1
+(144, 101) num of adjacent: 1
+(145, 100) num of adjacent: 1
+(146, 100) num of adjacent: 1
+(147, 99) num of adjacent: 1
+(148, 99) num of adjacent: 1
+(149, 99) num of adjacent: 1
+(150, 98) num of adjacent: 1
+(151, 98) num of adjacent: 1
+(152, 97) num of adjacent: 1
+(153, 97) num of adjacent: 1
+(154, 96) num of adjacent: 1
+(155, 96) num of adjacent: 1
+(156, 95) num of adjacent: 1
+(157, 95) num of adjacent: 1
+(158, 94) num of adjacent: 1
+(159, 94) num of adjacent: 1
+(160, 93) num of adjacent: 1
+(161, 93) num of adjacent: 1
+(162, 92) num of adjacent: 1
+(163, 92) num of adjacent: 1
+(164, 91) num of adjacent: 1
+(165, 90) num of adjacent: 1
+(166, 90) num of adjacent: 1
+(167, 89) num of adjacent: 1
+(168, 89) num of adjacent: 1
+(169, 88) num of adjacent: 1
+(170, 87) num of adjacent: 1
+(171, 87) num of adjacent: 1
+(172, 86) num of adjacent: 1
+(173, 86) num of adjacent: 1
+(174, 85) num of adjacent: 1
+(175, 84) num of adjacent: 1
+(176, 83) num of adjacent: 1
+(177, 83) num of adjacent: 1
+(178, 82) num of adjacent: 1
+(179, 81) num of adjacent: 1
+(180, 81) num of adjacent: 1
+(181, 80) num of adjacent: 1
+(182, 79) num of adjacent: 1
+(183, 78) num of adjacent: 1
+(184, 77) num of adjacent: 1
+(185, 77) num of adjacent: 1
+(186, 76) num of adjacent: 1
+(187, 75) num of adjacent: 1
+(188, 74) num of adjacent: 1
+(189, 73) num of adjacent: 1
+(190, 72) num of adjacent: 1
+(191, 71) num of adjacent: 1
+(191, 70) num of adjacent: 1
+(192, 69) num of adjacent: 1
+(193, 68) num of adjacent: 1
+(194, 67) num of adjacent: 1
+(195, 66) num of adjacent: 1
+(196, 65) num of adjacent: 1
+(197, 64) num of adjacent: 1
+(197, 63) num of adjacent: 1
+(198, 62) num of adjacent: 1
+(199, 61) num of adjacent: 1
+(199, 60) num of adjacent: 1
+(200, 59) num of adjacent: 0
+end   : ( 200,  59 )
+#############################
+stroke len: 2
+img path: data/BK\¥Ã/0003.jpg
+character: ¥Ã
+#############################
+     stroke order: 1
+start : (  77, 159 )
+(78, 159) num of adjacent: 1
+(79, 160) num of adjacent: 1
+(80, 160) num of adjacent: 1
+(81, 160) num of adjacent: 1
+(82, 160) num of adjacent: 1
+(83, 161) num of adjacent: 1
+(84, 161) num of adjacent: 1
+(85, 162) num of adjacent: 1
+(86, 162) num of adjacent: 1
+(87, 162) num of adjacent: 2
+(88, 162) num of adjacent: 2
+(88, 163) num of adjacent: 1
+(89, 161) num of adjacent: 1
+(90, 161) num of adjacent: 1
+(91, 160) num of adjacent: 1
+(92, 160) num of adjacent: 1
+(93, 159) num of adjacent: 1
+(94, 158) num of adjacent: 1
+(95, 157) num of adjacent: 1
+(96, 157) num of adjacent: 1
+(97, 156) num of adjacent: 1
+(98, 155) num of adjacent: 1
+(99, 155) num of adjacent: 1
+(100, 154) num of adjacent: 1
+(101, 153) num of adjacent: 1
+(102, 152) num of adjacent: 1
+(103, 152) num of adjacent: 1
+(104, 151) num of adjacent: 1
+(105, 150) num of adjacent: 1
+(106, 150) num of adjacent: 1
+(107, 149) num of adjacent: 1
+(108, 148) num of adjacent: 1
+(109, 147) num of adjacent: 1
+(110, 147) num of adjacent: 1
+(111, 146) num of adjacent: 1
+(112, 145) num of adjacent: 1
+(113, 144) num of adjacent: 1
+(114, 143) num of adjacent: 1
+(115, 142) num of adjacent: 1
+(116, 141) num of adjacent: 1
+(117, 140) num of adjacent: 1
+(118, 139) num of adjacent: 1
+(119, 139) num of adjacent: 1
+(120, 138) num of adjacent: 1
+(121, 137) num of adjacent: 1
+(122, 136) num of adjacent: 1
+(123, 135) num of adjacent: 1
+(124, 134) num of adjacent: 1
+(125, 133) num of adjacent: 1
+(126, 132) num of adjacent: 0
+end   : ( 126, 132 )
+#############################
+#############################
+     stroke order: 2
+start : (  88, 164 )
+(88, 165) num of adjacent: 1
+(88, 166) num of adjacent: 0
+end   : (  88, 166 )
+#############################
+stroke len: 1
+img path: data/BK\¥Ã/0004.jpg
+character: ¥Ã
+#############################
+     stroke order: 1
+start : ( 129, 131 )
+(130, 131) num of adjacent: 1
+(131, 132) num of adjacent: 1
+(132, 132) num of adjacent: 1
+(133, 132) num of adjacent: 1
+(134, 132) num of adjacent: 1
+(135, 133) num of adjacent: 1
+(136, 133) num of adjacent: 1
+(137, 134) num of adjacent: 1
+(138, 134) num of adjacent: 1
+(139, 135) num of adjacent: 1
+(140, 136) num of adjacent: 1
+(141, 136) num of adjacent: 1
+(142, 137) num of adjacent: 1
+(143, 137) num of adjacent: 1
+(144, 138) num of adjacent: 1
+(145, 138) num of adjacent: 1
+(146, 139) num of adjacent: 1
+(147, 140) num of adjacent: 1
+(148, 140) num of adjacent: 1
+(149, 141) num of adjacent: 1
+(150, 141) num of adjacent: 1
+(151, 142) num of adjacent: 1
+(152, 143) num of adjacent: 1
+(153, 143) num of adjacent: 1
+(154, 144) num of adjacent: 1
+(155, 145) num of adjacent: 1
+(156, 145) num of adjacent: 1
+(157, 146) num of adjacent: 1
+(158, 146) num of adjacent: 1
+(159, 147) num of adjacent: 1
+(160, 148) num of adjacent: 1
+(161, 148) num of adjacent: 1
+(162, 149) num of adjacent: 1
+(163, 150) num of adjacent: 1
+(164, 150) num of adjacent: 1
+(165, 151) num of adjacent: 1
+(166, 152) num of adjacent: 1
+(167, 152) num of adjacent: 1
+(168, 153) num of adjacent: 1
+(169, 154) num of adjacent: 1
+(170, 154) num of adjacent: 1
+(171, 155) num of adjacent: 1
+(172, 156) num of adjacent: 1
+(173, 157) num of adjacent: 1
+(174, 157) num of adjacent: 1
+(175, 158) num of adjacent: 1
+(176, 159) num of adjacent: 1
+(177, 160) num of adjacent: 1
+(178, 161) num of adjacent: 1
+(179, 161) num of adjacent: 1
+(180, 162) num of adjacent: 1
+(181, 163) num of adjacent: 1
+(182, 164) num of adjacent: 1
+(183, 165) num of adjacent: 1
+(184, 166) num of adjacent: 1
+(185, 167) num of adjacent: 1
+(186, 168) num of adjacent: 1
+(187, 169) num of adjacent: 1
+(188, 170) num of adjacent: 1
+(189, 171) num of adjacent: 1
+(190, 172) num of adjacent: 1
+(190, 173) num of adjacent: 1
+(191, 174) num of adjacent: 1
+(191, 175) num of adjacent: 1
+(191, 176) num of adjacent: 1
+(191, 177) num of adjacent: 1
+(191, 178) num of adjacent: 1
+(191, 179) num of adjacent: 1
+(192, 180) num of adjacent: 1
+(192, 181) num of adjacent: 1
+(192, 182) num of adjacent: 1
+(192, 183) num of adjacent: 1
+(192, 184) num of adjacent: 1
+(192, 185) num of adjacent: 1
+(192, 186) num of adjacent: 1
+(192, 187) num of adjacent: 1
+(192, 188) num of adjacent: 1
+(192, 189) num of adjacent: 1
+(193, 190) num of adjacent: 1
+(193, 191) num of adjacent: 1
+(193, 192) num of adjacent: 1
+(193, 193) num of adjacent: 1
+(193, 194) num of adjacent: 1
+(193, 195) num of adjacent: 0
+end   : ( 193, 195 )
+#############################
+stroke len: 1
+img path: data/SG\¤K/¤K.jpg
+################################################
+SG: ¤K_1 is matched to BK:     
+################################################
+################################################
+SG: ¤K_2 is matched to BK:     
+################################################
+img path: data/SG\¥|/¥|.jpg
+################################################
+SG: ¥|_1 is matched to BK:     
+################################################
+################################################
+SG: ¥|_2 is matched to BK:     
+################################################
+################################################
+SG: ¥|_3 is matched to BK:     
+################################################
+################################################
+SG: ¥|_4 is matched to BK:     
+################################################
+################################################
+SG: ¥|_5 is matched to BK:     
+################################################
+################################################
+SG: ¥|_6 is matched to BK:     
+################################################
+################################################
+SG: ¥|_7 is matched to BK:     
+################################################
+################################################
+SG: ¥|_8 is matched to BK:     
+################################################
+img path: data/SG\¦­/¦­.jpg
+################################################
+SG: ¦­_1 is matched to BK:     
+################################################
+################################################
+SG: ¦­_2 is matched to BK:     
+################################################
+################################################
+SG: ¦­_3 is matched to BK:     
+################################################
+################################################
+SG: ¦­_4 is matched to BK:     
+################################################
+################################################
+SG: ¦­_5 is matched to BK:     
+################################################
+################################################
+SG: ¦­_6 is matched to BK:     
+################################################
+################################################
+SG: ¦­_7 is matched to BK:     
+################################################
+################################################
+SG: ¦­_8 is matched to BK:     
+################################################
+################################################
+SG: ¦­_9 is matched to BK:     
+################################################
+img path: data/SG\¥Ã/¥Ã.jpg
+################################################
+Comparing SG: ¥Ã_1 with BK: 0001
+min dis: 9999999 dis: 172
+Comparing SG: ¥Ã_1 with BK: 0002
+min dis: 172 dis: 6847
+Comparing SG: ¥Ã_1 with BK: 0003
+min dis: 172 dis: 36538
+Comparing SG: ¥Ã_1 with BK: 0004
+min dis: 172 dis: 27278
+Comparing SG: ¥Ã_1 with BK: 0005
+min dis: 172 dis: 47016
+Comparing SG: ¥Ã_1 with BK: 0006
+min dis: 172 dis: 15592
+Comparing SG: ¥Ã_1 with BK: 0007
+min dis: 172 dis: 54244
+SG: ¥Ã_1 is matched to BK: 0001
+################################################
+################################################
+Comparing SG: ¥Ã_2 with BK: 0001
+min dis: 9999999 dis: 571
+Comparing SG: ¥Ã_2 with BK: 0002
+min dis: 571 dis: 4626
+Comparing SG: ¥Ã_2 with BK: 0003
+min dis: 571 dis: 28305
+Comparing SG: ¥Ã_2 with BK: 0004
+min dis: 571 dis: 22695
+Comparing SG: ¥Ã_2 with BK: 0005
+min dis: 571 dis: 38785
+Comparing SG: ¥Ã_2 with BK: 0006
+min dis: 571 dis: 10747
+Comparing SG: ¥Ã_2 with BK: 0007
+min dis: 571 dis: 46783
+SG: ¥Ã_2 is matched to BK: 0001
+################################################
+################################################
+Comparing SG: ¥Ã_3 with BK: 0001
+min dis: 9999999 dis: 1547
+Comparing SG: ¥Ã_3 with BK: 0002
+min dis: 1547 dis: 2562
+Comparing SG: ¥Ã_3 with BK: 0003
+min dis: 1547 dis: 24023
+Comparing SG: ¥Ã_3 with BK: 0004
+min dis: 1547 dis: 17915
+Comparing SG: ¥Ã_3 with BK: 0005
+min dis: 1547 dis: 33335
+Comparing SG: ¥Ã_3 with BK: 0006
+min dis: 1547 dis: 8455
+Comparing SG: ¥Ã_3 with BK: 0007
+min dis: 1547 dis: 41031
+SG: ¥Ã_3 is matched to BK: 0001
+################################################
+################################################
+Comparing SG: ¥Ã_4 with BK: 0001
+min dis: 9999999 dis: 4638
+Comparing SG: ¥Ã_4 with BK: 0002
+min dis: 4638 dis: 1175
+Comparing SG: ¥Ã_4 with BK: 0003
+min dis: 1175 dis: 20144
+Comparing SG: ¥Ã_4 with BK: 0004
+min dis: 1175 dis: 11216
+Comparing SG: ¥Ã_4 with BK: 0005
+min dis: 1175 dis: 24644
+Comparing SG: ¥Ã_4 with BK: 0006
+min dis: 1175 dis: 9384
+Comparing SG: ¥Ã_4 with BK: 0007
+min dis: 1175 dis: 39118
+SG: ¥Ã_4 is matched to BK: 0002
+################################################
+################################################
+Comparing SG: ¥Ã_5 with BK: 0001
+min dis: 9999999 dis: 5002
+Comparing SG: ¥Ã_5 with BK: 0002
+min dis: 5002 dis: 1757
+Comparing SG: ¥Ã_5 with BK: 0003
+min dis: 1757 dis: 22838
+Comparing SG: ¥Ã_5 with BK: 0004
+min dis: 1757 dis: 12174
+Comparing SG: ¥Ã_5 with BK: 0005
+min dis: 1757 dis: 26318
+Comparing SG: ¥Ã_5 with BK: 0006
+min dis: 1757 dis: 10550
+Comparing SG: ¥Ã_5 with BK: 0007
+min dis: 1757 dis: 37498
+SG: ¥Ã_5 is matched to BK: 0002
+################################################
+################################################
+Comparing SG: ¥Ã_6 with BK: 0001
+min dis: 9999999 dis: 4849
+Comparing SG: ¥Ã_6 with BK: 0002
+min dis: 4849 dis: 884
+Comparing SG: ¥Ã_6 with BK: 0003
+min dis: 884 dis: 19397
+Comparing SG: ¥Ã_6 with BK: 0004
+min dis: 884 dis: 10687
+Comparing SG: ¥Ã_6 with BK: 0005
+min dis: 884 dis: 24351
+Comparing SG: ¥Ã_6 with BK: 0006
+min dis: 884 dis: 8091
+Comparing SG: ¥Ã_6 with BK: 0007
+min dis: 884 dis: 34993
+SG: ¥Ã_6 is matched to BK: 0002
+################################################
+################################################
+Comparing SG: ¥Ã_7 with BK: 0001
+min dis: 9999999 dis: 17671
+Comparing SG: ¥Ã_7 with BK: 0002
+min dis: 17671 dis: 6830
+Comparing SG: ¥Ã_7 with BK: 0003
+min dis: 6830 dis: 4927
+Comparing SG: ¥Ã_7 with BK: 0004
+min dis: 4927 dis: 9789
+Comparing SG: ¥Ã_7 with BK: 0005
+min dis: 4927 dis: 11643
+Comparing SG: ¥Ã_7 with BK: 0006
+min dis: 4927 dis: 6581
+Comparing SG: ¥Ã_7 with BK: 0007
+min dis: 4927 dis: 24211
+SG: ¥Ã_7 is matched to BK: 0003
+################################################
