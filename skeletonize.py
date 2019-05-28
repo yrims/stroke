@@ -12,6 +12,12 @@ TYPE_2 = 'BK'
 IMG_PATH = 'data'
 SAVE_PATH = 'result'
 
+font = {'family' : 'DFKai-SB',
+'weight' : 'bold',
+'size'  : '16'}
+plt.rc('font', **font) # pass in the font dict as kwargs
+plt.rc('axes',unicode_minus=False)
+
 class Data():
     
     def __init__(self, img_path, img_name, character, TYPE):
@@ -175,20 +181,23 @@ class Data():
         self.stroke_len = count - 1
        
     def match_stroke(self):
-
+        
+        dir_b = SAVE_PATH + '/' +  TYPE_2 + '/' + self.character
+        if not os.path.exists(dir_b):
+            print('SG: %s does not has coorespond BK.' % self.character)
+            return
         # load start_end.txt of SG stroke
         point_file_a = '%s_start_end.txt' % (self.character)    
         start_end_a = np.loadtxt(SAVE_PATH + '/' +  TYPE_1 + '/' + self.character + '/' + point_file_a, delimiter=',', dtype=np.int16)
-        num_stroke_SK = int(start_end_a.shape[0] / 3)
-        match_table = np.chararray((num_stroke_SK, 2), itemsize=4, unicode=True)
-        dir_b = SAVE_PATH + '/' +  TYPE_2 + '/' + self.character
+        num_stroke_SG = int(start_end_a.shape[0] / 3)
         num_stroke_BK = int(len(os.listdir(dir_b))/4)
-        dis_table = np.zeros((num_stroke_SK, num_stroke_BK))
+        match_table = np.chararray((num_stroke_SG, 2), itemsize=4, unicode=True)
+        dis_table = np.zeros((num_stroke_SG, num_stroke_BK))
         dis_table[:] = 999999
         
         # print('start_end_a:')
         # print(start_end_a)
-        for len_a in range(num_stroke_SK):
+        for len_a in range(num_stroke_SG):
             match_table[len_a, 0] = len_a + 1 
             _, start_x_a, start_y_a = start_end_a[3 * len_a]
             _, mid_x_a, mid_y_a     = start_end_a[3 * len_a + 1]
@@ -240,14 +249,14 @@ class Data():
             print('SG: %s_%d is matched to BK: %4s' % (self.character, len_a+1, match_table[len_a, 1]))        
             print('################################################')
         print(dis_table)
-        match_result = np.zeros((num_stroke_SK))
+        match_result = np.zeros((num_stroke_SG))
         match_result[:] = -1
         while -1 in match_result:
             min_dis = np.unravel_index(np.argmin(dis_table), dis_table.shape)
             
             # min_dis[0] : stroke order of SK
             # min_dis[1] : stroke order of BK
-            # SK stroke is not matched
+            # SG stroke is not matched
             if match_result[min_dis[0]] == -1:
                 print('################################################')
                 # BK stroke is not matched
@@ -261,9 +270,27 @@ class Data():
                 dis_table[min_dis] = 999999
                 print(match_result)
                 print('################################################')
-            # SK stroke is matched
+                
+                SG_img = Image.open('result/SG/%s/SG_%s_%02d.jpg' % (self.character, self.character, min_dis[0] + 1))
+                BK_img = Image.open('result/BK/%s/BK_%s_%02d.jpg' % (self.character, self.character, min_dis[1] + 1))
+                
+                plt.subplot(1, 2, 1)
+                plt.title('%s : %d (瘦金體)' % (self.character, min_dis[0] + 1))
+                plt.axis('off')
+                plt.imshow(SG_img)
+                
+                plt.subplot(1, 2, 2)
+                plt.title('%s : %d (標楷體)' % (self.character, min_dis[1] + 1))
+                plt.imshow(BK_img)
+                plt.axis('off')
+                
+                plt.savefig('result/match_img/%s_%02d.jpg' % (self.character, min_dis[0] + 1))
+                # plt.show()
+                
+            # SG stroke is matched
             else:
                 dis_table[min_dis] = 999999
+                
 
             
         np.savetxt(SAVE_PATH + '/' +  TYPE_1 + '/' + '%s_match.txt' % self.character, match_result, fmt='%d', delimiter=',')
@@ -343,6 +370,7 @@ if __name__ == '__main__':
             data.split()
             data.save_stroke()
     '''
+    
     # matching SG stroke order to BK stroke
     for root, dirs, fs in os.walk(IMG_PATH + '/' + TYPE_1):
         for f in fs:
