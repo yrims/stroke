@@ -274,6 +274,7 @@ class Data():
                 SG_img = Image.open('result/SG/%s/SG_%s_%02d.jpg' % (self.character, self.character, min_dis[0] + 1))
                 BK_img = Image.open('result/BK/%s/BK_%s_%02d.jpg' % (self.character, self.character, min_dis[1] + 1))
                 
+                plt.figure(figsize=(8,4))
                 plt.subplot(1, 2, 1)
                 plt.title('%s : %d (瘦金體)' % (self.character, min_dis[0] + 1))
                 plt.axis('off')
