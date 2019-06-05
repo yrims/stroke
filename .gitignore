@@ -17,6 +17,7 @@ swf_res
 SWFtools
 readSWF.py
 test.py
+out.txt
 
 ### VisualStudioCode ###
 .vscode/*
