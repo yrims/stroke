@@ -5,6 +5,7 @@ import shutil
 from skimage.morphology import skeletonize
 import matplotlib.pyplot as plt
 from PIL import Image
+from scipy.spatial.distance import cosine
 import numpy as np
 
 TYPE_1 = 'SG'
@@ -39,6 +40,9 @@ class Data():
         self.ori_img = np.array(self.img)
         self.img = self.img.convert('L')
         self.img = np.array(self.img)
+        self.binarization()
+
+    def binarization(self):
         thres = 128
         for i in range(256):
             for j in range(256):
@@ -51,6 +55,66 @@ class Data():
         # perform skeletonization
         self.skeleton = skeletonize(self.img)
     
+    def cos(self, v_a, v_b):
+        return cosine(v_a, v_b)
+
+    def is_board(self, i, j):
+        if i == 0 or j == 0 or i == 255 or j == 255 :
+            return True
+        return False
+    
+    def has_value(self, i, j):
+        if self.skeleton[i, j] == 1:
+            return True
+        return False
+
+    def not_find(self, i, j):
+        if self.table[i, j] == 0:
+            return True
+        return False
+    
+    def compute_vector(self, p1x, p1y, p2x, p2y):
+        return (p2x - p1x, p2y - p1y)
+
+    def update_idx(self, i, j):
+        new_idx = [(i + 1, j    ), 
+                   (i + 1, j + 1), 
+                   (i    , j + 1), 
+                   (i - 1, j + 1),
+                   (i - 1, j    ), 
+                   (i - 1, j - 1), 
+                   (i    , j - 1), 
+                   (i + 1, j - 1)]
+        return new_idx
+    
+    def update_point(self, i, j):
+        new_point = [self.skeleton[i + 1, j    ], 
+                     self.skeleton[i + 1, j + 1], 
+                     self.skeleton[i    , j + 1], 
+                     self.skeleton[i - 1, j + 1],
+                     self.skeleton[i - 1, j    ], 
+                     self.skeleton[i - 1, j - 1], 
+                     self.skeleton[i    , j - 1], 
+                     self.skeleton[i + 1, j - 1]]
+        return new_point
+    
+    def update_table(self, i, j):
+        new_table = [self.table[i + 1, j    ], 
+                     self.table[i + 1, j + 1], 
+                     self.table[i    , j + 1], 
+                     self.table[i - 1, j + 1],
+                     self.table[i - 1, j    ], 
+                     self.table[i - 1, j - 1], 
+                     self.table[i    , j - 1], 
+                     self.table[i + 1, j - 1]]
+        return new_table
+
+    def array_to_opencv(self, a):
+        img = 255 * a.copy()
+        img = Image.fromarray(img)
+        # img = cv2.cvtColor(a, cv2.COLOR_GRAY2BGR)
+        return img
+
     def make_dir(self):
         if os.path.exists(SAVE_PATH + '/' + self.type + '/' + self.character):
             shutil.rmtree(SAVE_PATH + '/' + self.type + '/' + self.character)
@@ -60,29 +124,32 @@ class Data():
             os.mkdir(SAVE_PATH + '/' + self.type + '/' + self.character)
     
     def split(self):
-
+        """
+        search all points in self.skeleton,
+        save the stroke number in self.table
+        """
         # store each stroke
         self.table = np.zeros((256, 256), dtype=np.int8)
         # split stroke order
         count = 1 
         order = 1
         surround = []
-        
-        # print(self.skeleton)
-        for i in range(256):
-            # print('i:',i)
-            for j in range(256):
-                # print('j:',j)
-                if self.skeleton[i, j] == 1 and self.table[i, j] == 0:
-                    
-                    print('#############################')
-                    print('     stroke order:', count)
+        plt.figure()
 
-                    # print('########################')
+        # Define the codec and create VideoWriter object
+        fourcc = cv2.VideoWriter_fourcc(*'MJPG')
+        out = cv2.VideoWriter('result/videos/%s_%s.avi' % (self.character, self.type) ,fourcc, 20.0, (256, 256), isColor=False)
+        
+        for i in range(256):
+            
+            for j in range(256):
+                
+                if self.has_value(i, j) and self.not_find(i, j):
                     
-                    # compute length in a stroke
+                    # Compute length in a single stroke.
                     stroke_len = 1
                     
+                    # Store single stroke coordinate.
                     point_idxs = []
 
                     self.table[i, j] = count
@@ -91,60 +158,107 @@ class Data():
                     
                     self.table[tmp_i, tmp_j] = count
                     
-                    adjacent_idx = [(tmp_i + 1, tmp_j), (tmp_i + 1, tmp_j + 1), (tmp_i, tmp_j + 1), (tmp_i - 1, tmp_j + 1),
-                                    (tmp_i - 1, tmp_j), (tmp_i - 1, tmp_j - 1), (tmp_i, tmp_j - 1), (tmp_i + 1, tmp_j - 1)]
-                    
-                    adjacent_pixel = [self.skeleton[i + 1, j], self.skeleton[i + 1, j + 1], self.skeleton[i, j + 1], self.skeleton[i - 1, j + 1],
-                                      self.skeleton[i - 1, j], self.skeleton[i - 1, j - 1], self.skeleton[i, j - 1], self.skeleton[i + 1, j - 1]]
+                    adjacent_idx = self.update_idx(tmp_i, tmp_j)
+                    adjacent_point = self.update_point(tmp_i, tmp_j)
+                    n_adjacent = np.count_nonzero(adjacent_point)
 
-                    n_adjacent = np.count_nonzero(adjacent_pixel)
                     start_i = tmp_i
                     start_j = tmp_j
                     point_idxs.append((tmp_i, tmp_j))
+
                     self.start_end.append((order, start_i, start_j))
-                    print('start : ( %3d, %3d )' % (start_i, start_j))
-                    # print('adj idx:', adjacent_idx)
                     
+                    # Search deep first.
                     while(1):
-                        # print('(%d, %d)' % (tmp_i, tmp_j))
-                        FLAG = 1
+                        ENDPOINT = 1
+                        n_adjacent = 0
+                        cos_dis = 0
+                        showImg = 1
+                        
+                        if showImg:
+                            #plt.title('%s : %d (瘦金體)' % (self.character, count))
+                            #plt.axis('off')   
+                            #plt.imshow(self.table)
+                            #plt.pause(0.000001)
+                            #plt.clf()
+                            frame = self.table.copy()
+                            frame[np.where(frame > 0)] = 255
+                            out.write(np.uint8(frame))
+                            #cv2.imshow('frame', frame)
+                            #if cv2.waitKey(1)& 0xFF == ord('q'):
+                            #    break
+
+                        # Search eight surrounded points
                         for idx in adjacent_idx:
                             adj_i, adj_j = idx
-                            # print('(%d, %d)' % (adj_i, adj_j))
-                            if self.skeleton[adj_i, adj_j] == 1 and self.table[adj_i, adj_j] == 0:
-                                FLAG = 0
+                            if self.is_board(adj_i, adj_i):
+                                break
+                            if self.has_value(adj_i, adj_j) and self.not_find(adj_i, adj_j):
+                                ENDPOINT = 0
                                 stroke_len += 1
-                                
+                                if len(point_idxs) > 10: 
+                                    v1 = self.compute_vector(point_idxs[-10][0], point_idxs[-10][1], point_idxs[-5][0], point_idxs[-5][1])
+                                    v2 = self.compute_vector(point_idxs[-5][0], point_idxs[-5][1], adj_i, adj_j)
+                                    cos_dis = self.cos(v1, v2)
+                                    if cos_dis > 1:
+                                        print("-----------------------------")
+                                        print("v1:", v1, "v2:", v2)
+                                        print("cosine dis(0~2):", cos_dis)
+                                        print("-----------------------------")
                                 self.table[adj_i, adj_j] = count
                                 tmp_i = adj_i
                                 tmp_j = adj_j
                                 point_idxs.append((tmp_i, tmp_j))
 
-                                if tmp_i == 255 or tmp_j == 255 or tmp_i == 0 or tmp_j == 0:
-                                    break    
-                                
-                                adjacent_idx = [(tmp_i + 1, tmp_j), (tmp_i + 1, tmp_j + 1), (tmp_i, tmp_j + 1), (tmp_i - 1, tmp_j + 1),
-                                                (tmp_i - 1, tmp_j), (tmp_i - 1, tmp_j - 1), (tmp_i, tmp_j - 1), (tmp_i + 1, tmp_j - 1)]
+                                adjacent_idx = self.update_idx(tmp_i, tmp_j)
+                                adjacent_point = self.update_point(tmp_i, tmp_j)
+                                found_adjacent_point = self.update_table(tmp_i, tmp_j)
 
-                                adjacent_pixel = [self.skeleton[tmp_i+1, tmp_j], self.skeleton[tmp_i+1, tmp_j+1], self.skeleton[tmp_i, tmp_j+1], self.skeleton[tmp_i-1, tmp_j+1], 
-                                                  self.skeleton[tmp_i-1, tmp_j], self.skeleton[tmp_i-1, tmp_j-1], self.skeleton[tmp_i, tmp_j-1], self.skeleton[tmp_i+1, tmp_j-1]]
+                                # How many adjacent points have not been labeled
+                                n_adjacent = np.count_nonzero(adjacent_point) - np.count_nonzero(found_adjacent_point)
 
-                                computed_adjacent_pixel =  [self.table[tmp_i+1, tmp_j], self.table[tmp_i+1, tmp_j+1], self.table[tmp_i, tmp_j+1], self.table[tmp_i-1, tmp_j+1], 
-                                                            self.table[tmp_i-1, tmp_j], self.table[tmp_i-1, tmp_j-1], self.table[tmp_i, tmp_j-1], self.table[tmp_i+1, tmp_j-1]] 
-
-                                n_adjacent = np.count_nonzero(adjacent_pixel) - np.count_nonzero(computed_adjacent_pixel)
-                                print('(%d, %d)' % (tmp_i, tmp_j), 'num of adjacent:', n_adjacent)
-                                
+                                # Is connected point.
                                 if n_adjacent > 1:
                                     self.table[tmp_i, tmp_j] = count
-                                    break
-                                elif n_adjacent == 0:
-                                
+                                    next_min_point = 2
+
+                                    # Find which connected component should follow.
+                                    for idx in adjacent_idx:
+                                        try:
+                                            v1 = self.compute_vector(point_idxs[-10][0], point_idxs[-10][1], point_idxs[-5][0], point_idxs[-5][1])
+                                            v2 = self.compute_vector(point_idxs[-5][0], point_idxs[-5][1], idx[0], idx[1])
+                                        except IndexError:
+                                            break
+                                        cos_dis = self.cos(v1, v2)
+                                        if cos_dis < next_min_point:
+                                            next_min_point = cos_dis
+                                            min_idx = idx
+                                            adjacent_idx = self.update_idx(min_idx[0], min_idx[1])
+                                    print('n_adj')
                                     continue
-                        if FLAG:
+                                
+                                # Is not connected point, foward the stroke direction,
+                                # and split when angle > 90 (cosine dis > 1).
+                                elif n_adjacent == 1:
+                                    if cos_dis > 0.5:
+                                        self.table[tmp_i, tmp_j] = count
+                                        print('cos dis')
+                                        break
+                                    # print('follow stroke')
+                                    continue
+                                
+                                elif n_adjacent == 0:
+                                    break
+                        
+                        if cos_dis > 0.5:
                             break
 
-                    if stroke_len < 10:
+                        if ENDPOINT:
+                            break
+                        
+                        
+
+                    if stroke_len < 20:
                         self.start_end.pop()
                     else:
                         # add mid pixel
@@ -169,11 +283,13 @@ class Data():
                         # the stroke order that stroke len > 10
                         order += 1
                     
-                    print('end   : ( %3d, %3d )' % (tmp_i, tmp_j))
-                    print('#############################')
+                    #print('end   : ( %3d, %3d )' % (tmp_i, tmp_j))
+                    #print('#############################')
                     
                     count += 1
-                        
+        # plt.close('all')
+        out.release()
+        cv2.destroyAllWindows()
         if self.type == 'SG':
             np.savetxt(SAVE_PATH + '/' + self.type + '/' + self.character + '/' + '%s_start_end.txt' % self.character, self.start_end, fmt='%d', delimiter=',')
             np.savetxt(SAVE_PATH + '/' + self.type + '/' + self.character + '/' + '%s_table.txt' % self.character, self.table, fmt='%d', delimiter='')
@@ -339,7 +455,7 @@ if __name__ == '__main__':
     # TYPE_2 = 'BK'
     # IMG_PATH = 'data'
     # SAVE_PATH = 'result'
-    '''
+    """
     # getting SG stroke order
     for root, dirs, fs in os.walk(IMG_PATH + '/' + TYPE_1):
         for f in fs:
@@ -370,8 +486,8 @@ if __name__ == '__main__':
             data.thin()
             data.split()
             data.save_stroke()
-    '''
     
+    """
     # matching SG stroke order to BK stroke
     for root, dirs, fs in os.walk(IMG_PATH + '/' + TYPE_1):
         for f in fs:
