@@ -58,6 +58,26 @@ class Data():
     def cos(self, v_a, v_b):
         return cosine(v_a, v_b)
 
+    def is_extreme(self, i, j):
+        # start/end point or not
+        # e.g.
+        # 0  1  0
+        # 0  1  0
+        # 0  0  0
+        if np.count_nonzero(self.update_point(i, j)) == 1:
+            return True
+        return False
+    
+    def is_connected(self, i, j):
+        # connected point or not
+        # e.g.
+        #  0  1  0
+        #  0  1  1
+        #  0  1  0
+        if np.count_nonzero(self.update_point(i, j)) > 2:
+            return True
+        return False
+
     def is_board(self, i, j):
         if i == 0 or j == 0 or i == 255 or j == 255 :
             return True
@@ -77,6 +97,11 @@ class Data():
         return (p2x - p1x, p2y - p1y)
 
     def update_idx(self, i, j):
+        """
+        6  7  8
+        5  0  1
+        4  3  2
+        """
         new_idx = [(i + 1, j    ), 
                    (i + 1, j + 1), 
                    (i    , j + 1), 
@@ -97,7 +122,7 @@ class Data():
                      self.skeleton[i    , j - 1], 
                      self.skeleton[i + 1, j - 1]]
         return new_point
-    
+
     def update_table(self, i, j):
         new_table = [self.table[i + 1, j    ], 
                      self.table[i + 1, j + 1], 
@@ -155,6 +180,9 @@ class Data():
                     self.table[i, j] = count
 
                     tmp_i, tmp_j = i, j
+
+                    #if self.character == '永':
+                    #    print('extreme point.', tmp_i, tmp_j)
                     
                     self.table[tmp_i, tmp_j] = count
                     
@@ -191,20 +219,27 @@ class Data():
                         # Search eight surrounded points
                         for idx in adjacent_idx:
                             adj_i, adj_j = idx
-                            if self.is_board(adj_i, adj_i):
+                            if self.is_board(adj_i, adj_j):
                                 break
                             if self.has_value(adj_i, adj_j) and self.not_find(adj_i, adj_j):
                                 ENDPOINT = 0
                                 stroke_len += 1
-                                if len(point_idxs) > 10: 
-                                    v1 = self.compute_vector(point_idxs[-10][0], point_idxs[-10][1], point_idxs[-5][0], point_idxs[-5][1])
-                                    v2 = self.compute_vector(point_idxs[-5][0], point_idxs[-5][1], adj_i, adj_j)
+                                
+                                if len(point_idxs) > 1: 
+                                    v1 = self.compute_vector(point_idxs[-2][0], point_idxs[-2][1], point_idxs[-1][0], point_idxs[-1][1])
+                                    v2 = self.compute_vector(point_idxs[-1][0], point_idxs[-1][1], adj_i, adj_j)
                                     cos_dis = self.cos(v1, v2)
+                                    
+                                    """
                                     if cos_dis > 1:
                                         print("-----------------------------")
                                         print("v1:", v1, "v2:", v2)
                                         print("cosine dis(0~2):", cos_dis)
                                         print("-----------------------------")
+                                    """
+                                
+                                
+
                                 self.table[adj_i, adj_j] = count
                                 tmp_i = adj_i
                                 tmp_j = adj_j
@@ -221,36 +256,65 @@ class Data():
                                 if n_adjacent > 1:
                                     self.table[tmp_i, tmp_j] = count
                                     next_min_point = 2
-
+                                    point_idxs.append((tmp_i, tmp_j))
+                                    """
+                                    if self.character == '永':
+                                        print('connected point.', tmp_i, tmp_j)
+                                        print('%d %d %d\n%d %d %d\n%d %d %d' % (self.skeleton[tmp_i - 1, tmp_j - 1], 
+                                                                                self.skeleton[tmp_i - 1, tmp_j    ],
+                                                                                self.skeleton[tmp_i - 1, tmp_j + 1],
+                                                                                self.skeleton[tmp_i    , tmp_j - 1],
+                                                                                self.skeleton[tmp_i    , tmp_j    ],
+                                                                                self.skeleton[tmp_i    , tmp_j + 1],
+                                                                                self.skeleton[tmp_i + 1, tmp_j - 1],
+                                                                                self.skeleton[tmp_i + 1, tmp_j    ],
+                                                                                self.skeleton[tmp_i + 1, tmp_j + 1]))
+                                    """
                                     # Find which connected component should follow.
-                                    for idx in adjacent_idx:
+                                    for n, idx in enumerate(adjacent_idx):
                                         try:
-                                            v1 = self.compute_vector(point_idxs[-10][0], point_idxs[-10][1], point_idxs[-5][0], point_idxs[-5][1])
-                                            v2 = self.compute_vector(point_idxs[-5][0], point_idxs[-5][1], idx[0], idx[1])
+                                            if self.skeleton[idx[0], idx[1]] == 1:
+                                                v1 = self.compute_vector(point_idxs[-2][0], point_idxs[-2][1], point_idxs[-1][0], point_idxs[-1][1])
+                                                v2 = self.compute_vector(point_idxs[-1][0], point_idxs[-1][1], idx[0], idx[1])
+                                            else:
+                                                continue
                                         except IndexError:
                                             break
+                                        
                                         cos_dis = self.cos(v1, v2)
+                                        
                                         if cos_dis < next_min_point:
                                             next_min_point = cos_dis
                                             min_idx = idx
-                                            adjacent_idx = self.update_idx(min_idx[0], min_idx[1])
-                                    print('n_adj')
-                                    continue
+                                            
+                                            if n == 7:
+                                                adjacent_idx = self.update_idx(min_idx[0], min_idx[1])
+                                                # print('followed point.', min_idx[0], min_idx[1])
+                                                break
+                                    # print('n_adj')
+                                    
                                 
                                 # Is not connected point, foward the stroke direction,
                                 # and split when angle > 90 (cosine dis > 1).
                                 elif n_adjacent == 1:
-                                    if cos_dis > 0.5:
+                                    if cos_dis > 1.5:
                                         self.table[tmp_i, tmp_j] = count
-                                        print('cos dis')
+                                        #print('cos dis > 1.5')
                                         break
-                                    # print('follow stroke')
-                                    continue
-                                
+                                    self.table[tmp_i, tmp_j] = count
+                                    point_idxs.append((tmp_i, tmp_j))
+                                    adjacent_idx = self.update_idx(tmp_i, tmp_j)
+                                    
+                                    #if self.character == '永':
+                                    #    print('inner point.',tmp_i, tmp_j)
+                                           
                                 elif n_adjacent == 0:
+                                    #if self.character == '永':
+                                    #    print('extreme point.', tmp_i, tmp_j)
+                                    ENDPOINT = 1
                                     break
                         
-                        if cos_dis > 0.5:
+                        if cos_dis > 1.5:
                             break
 
                         if ENDPOINT:
@@ -258,7 +322,7 @@ class Data():
                         
                         
 
-                    if stroke_len < 20:
+                    if stroke_len < 15:
                         self.start_end.pop()
                     else:
                         # add mid pixel
@@ -266,8 +330,7 @@ class Data():
                         self.start_end.append((order, mid_i, mid_j))
                     
                         # add end pixel
-                        end_i = tmp_i
-                        end_j = tmp_j
+                        end_i, end_j = point_idxs[-1] 
                         self.start_end.append((order, end_i, end_j))
                         
                         if self.type == 'BK': 
@@ -425,7 +488,7 @@ class Data():
         print('stroke len:', self.stroke_len)
         for n_stroke in range(self.stroke_len):
             
-            if np.count_nonzero(self.table == (n_stroke + 1)) < 10:
+            if np.count_nonzero(self.table == (n_stroke + 1)) < 15:
                 continue
 
             num_stroke += 1
@@ -455,17 +518,19 @@ if __name__ == '__main__':
     # TYPE_2 = 'BK'
     # IMG_PATH = 'data'
     # SAVE_PATH = 'result'
-    """
+    
     # getting SG stroke order
     for root, dirs, fs in os.walk(IMG_PATH + '/' + TYPE_1):
         for f in fs:
             if len(f) != 0:
                 img_path = root + '/' + f
                 print('img path:', img_path)
+            
             data = Data(img_path, f, root[-1], TYPE_1)
             data.make_dir()
             data.load_data()
             data.thin()
+            print('Start spliting strokes.')
             data.split()
             data.save_stroke()
     
@@ -477,23 +542,26 @@ if __name__ == '__main__':
             if len(f) != 0:
                 img_path = root + '/' + f
                 print('img path:', img_path)
-                print('character:', root[-1])
+                # print('character:', root[-1])
+            
             data = Data(img_path, f, root[-1], TYPE_2)
             if CLEAN:
                 data.make_dir()
                 CLEAN = False
             data.load_data()
             data.thin()
+            print('Start spliting strokes.')
             data.split()
             data.save_stroke()
     
-    """
+    
     # matching SG stroke order to BK stroke
     for root, dirs, fs in os.walk(IMG_PATH + '/' + TYPE_1):
         for f in fs:
             if len(f) != 0:
                 img_path = root + '/' + f
                 print('img path:', img_path)
+            
             data = Data(img_path, f, root[-1], TYPE_1)
             data.match_stroke()
     

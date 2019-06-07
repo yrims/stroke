@@ -4,13 +4,15 @@
 # Edit at https://www.gitignore.io/?templates=visualstudiocode,windows
 
 ### data ###
-data/*
-!data/BK/永/*
-!data/SG/永/*
+data/
+!data/BK/永/
+!data/SG/永/
 
 ### result ###
-result/videos/*
-result/match_img
+result/videos/
+result/match_img/
+result/SG
+result/BK
 
 ### for swf file ###
 swf_res
